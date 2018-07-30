@@ -1,0 +1,29 @@
+/*introBox.css*/
+
+#introBox {position:relative; width: 100%; height: 100%; overflow: hidden; }
+
+.intro_box{width: 100%; height: 100%;}
+.intro_li {width: 200%; height: 100%;}
+.intro_li > li {width: 50%; height: 100%; float: left;}
+
+.intro_li_1 {background-repeat: no-repeat; background-size:auto 100%; background-position:center;/* display: none;*/}
+.intro_li_2 {background-image:url("../../../../img/introBox/intro_2.jpg"); background-repeat: no-repeat; background-size:contain; background-position:center; background-color:#f4f8fb;}
+
+
+.intro_btn { width:100%; position: absolute; height: 0; z-index:500;}
+
+.prev_btn{float:left; background-image:url("../../../../img/introBox/left.png"); background-repeat: no-repeat; background-size: 100%;}
+.next_btn{float:right; background-image:url("../../../../img/introBox/right.png"); background-repeat: no-repeat; background-size: 100%;}
+
+/*li첫번째*/
+.intro_1 {position:relative; border-radius: 100%; background-color:rgba(81,166,238,0.87);}
+.intro_1 > p {position:absolute; color:#fff; width: 100%; height:100%; text-align:center; border-radius:100%; box-sizing:border-box;}
+
+
+
+/*indicator*/
+.indicator {position:absolute; left:50%;}
+.indicator > li {border-radius:100%; background-color:#aaa; float: left;}
+.li_1 {margin-right: 20px;}
+
+.indicator > li.active {background-color:#000;}

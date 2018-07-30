@@ -1,0 +1,16 @@
+@media screen and (max-width:480px) {
+
+#mapBox {height: auto; box-sizing:border-box; padding: 1rem;}
+#mapBox > h3 {width: 90px; height: 30px; background-color:#0080e6;
+text-align: center; line-height:30px; color:#fff; font-size:18px;
+font-weight:normal; margin: auto;}
+
+.map_img {width: 100%; height: 200px; background-position:center;
+background-image:url("../../../../../img/aboutBox/map_img.JPG");
+background-size:90%; margin-top:10%;}
+
+.c_address {width: 100%; height: auto; text-align:center;}
+.c_address > dt {width: 100%; height: 30px; margin-top:10%; float: left;}
+.c_address > dd {width: 100%; height:20px; font-size:14px; float: left;}
+
+}

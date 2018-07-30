@@ -1,0 +1,12 @@
+@media screen and (max-width:480px) {
+
+	.membership_tab {width: 150px; height: 30px; background-color:#0080e6; 
+		text-align:center; line-height:30px;}
+	.membership_tab > li {width: 100%; height: 100%;}
+	.membership_tab > li > a {display: block; width: 100%; height: 100%; color:#fff;}
+
+	.membership_tab > li:nth-child(2),
+	.membership_tab > li:nth-child(3){display: none;}
+	
+	.m_tab_text {width: 100%; height: auto; background-color:#fac;}
+}

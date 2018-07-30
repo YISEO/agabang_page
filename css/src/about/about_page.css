@@ -1,0 +1,45 @@
+/*about_page.css*/
+
+/*about_area*/
+
+@import url('./ceoBox/ceo.css');
+@import url('./visionBox/vision.css');
+@import url('./historyBox/history.css');
+@import url('./ciBox/ci.css');
+@import url('./mapBox/map.css');
+
+/*ceo*/
+
+@import url('./ceoBox/media/ceo_mobile.css');
+@import url('./ceoBox/media/ceo_tablet.css');
+@import url('./ceoBox/media/ceo_pc.css');
+@import url('./ceoBox/media/ceo_pc_full.css');
+
+/*vision*/
+
+@import url('./visionBox/media/vision_mobile.css');
+@import url('./visionBox/media/vision_tablet.css');
+@import url('./visionBox/media/vision_pc.css');
+@import url('./visionBox/media/vision_pc_full.css');
+
+/*history*/
+
+@import url('./historyBox/media/history_mobile.css');
+@import url('./historyBox/media/history_tablet.css');
+@import url('./historyBox/media/history_pc.css');
+@import url('./historyBox/media/history_pc_full.css');
+
+/*ci*/
+
+@import url('./ciBox/media/ci_mobile.css');
+@import url('./ciBox/media/ci_tablet.css');
+@import url('./ciBox/media/ci_pc.css');
+@import url('./ciBox/media/ci_pc_full.css');
+
+/*map*/
+
+@import url('./mapBox/media/map_mobile.css');
+@import url('./mapBox/media/map_tablet.css');
+@import url('./mapBox/media/map_pc.css');
+@import url('./mapBox/media/map_pc_full.css');
+

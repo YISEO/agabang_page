@@ -1,0 +1,19 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+
+
+	#brandBox_2 {padding:3rem 4rem; overflow:hidden;}
+
+	.brand_content_2 {width:100%; height:auto; background-color:#fac; 
+	box-sizing:border-box; padding: 1rem; overflow: hidden; margin-top:2rem;}
+	.brand_img_2 {width: 200%; height:220px;}
+	.brand_img_2 > li {width:50%; height: 100%; float:left;}
+	
+	.brand_area_2 {width: 200%; height: auto; background-color:#acf;}
+	.brand_2 {width: 50%; height: auto; float:left;}
+	.brand_2 > dt {width: 100%; margin-top: 20px; font-size: 20px;}
+	.brand_2 > dd {width: 100%; margin-top: 20px; font-size: 18px;}
+	.brand_2 > dd:last-of-type {display: none;}
+	
+
+	.putto_img {background-size:100%;}
+}

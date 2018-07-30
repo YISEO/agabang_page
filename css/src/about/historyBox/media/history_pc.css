@@ -1,0 +1,17 @@
+/*history_pc.css*/
+
+@media screen and (min-width:768px) and (max-width:1366px){
+
+  #historyBox {width: 100%; height: auto; padding-top:140px; 
+  background-color:#fff;}
+  
+  #historyBox > h3 {width: 210px; height: 40px; text-align:center; margin: auto; font-size:22px; line-height:40px; margin-bottom:30px;}
+
+  .history_content > dl {width: 0; height: 0; overflow: hidden;}
+
+  .history_img {width: 100%; height:720px;
+    /*52.708638vw;*//*720/1366*100*/ margin: auto; 
+  background-image:url("../../../../../img/aboutBox/history.png");
+  background-repeat:no-repeat; background-size:contain;
+  background-position:center; }
+}

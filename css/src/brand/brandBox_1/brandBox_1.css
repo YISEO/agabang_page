@@ -1,0 +1,43 @@
+/*brandBox_1.css*/
+
+#brand_wrap {width: 100%; height: auto; word-break:keep-all;}
+
+.brandBox {box-sizing:border-box; width: 100%; height: auto; }
+.brandBox > ul > li {color:#666; position:relative;}
+.brandBox > ul > li.active {color:#0080e6;}
+.brandBox > h3 {font-weight:normal;}
+
+.brandBox > ul > li:after {content:" "; display: block; width: 1px; height:8px; 
+border-right:1px solid #aaa; position:absolute; right:0; margin-right:-10px; 
+top:50%; margin-top:-8px;}
+
+.brandBox > ul > li:last-child:after {display: none;}
+
+.brand_1 {box-sizing:border-box;}
+.brand_1 > dt {height: auto; color:#ff6000;}
+.brand_1 > dd {height: auto; color:#666;}
+
+/*brand_img*/
+.agabang_img {background-image:url("../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.dearbaby_img {background-image:url(."../../../../img/brandBox/brand_img/dear_baby.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.gallery_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.ettoi_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.tinyplex_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.petit_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.nextmom_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}
+
+.eyaeyao_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
+background-repeat:no-repeat; background-size:100%; background-position: center;}

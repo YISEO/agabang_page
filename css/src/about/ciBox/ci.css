@@ -1,0 +1,6 @@
+/*ci.css*/
+
+#ciBox {width: 100%; word-break:keep-all;}
+
+.ci_img {background-image:url("../../../../img/aboutBox/ci_img.jpg");
+background-repeat:no-repeat; background-position:center;}

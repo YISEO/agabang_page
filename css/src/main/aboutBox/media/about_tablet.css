@@ -1,0 +1,20 @@
+/*about_tablet.css*/
+@media screen and (min-width:481px) and (max-width:768px) {
+
+  #aboutBox {padding:2rem; height:auto; background-color:#fff;}
+
+  .about_title {padding-top:1.25rem; height:11.875rem;}
+  .about_title > h2{height: 2.625rem; font-size:1.625rem; line-height:1.3125rem;}
+  .about_title > p{height: 6.875rem; font-size:1.125rem; padding-top:1.875rem;}
+
+  .about_content{width: 100%; height:auto;}
+  .about_content > ul {width:100%; height: auto; margin: auto;
+    box-sizing: border-box; padding:0 6.2vw;}
+  .about_content > ul > li {margin-top: 1.5rem; width:33.854167vw; 
+    /*260/768*100*/ height:46.875vw; /*360/768*100*/ }
+
+  .content_1{margin:auto; background-image:url("../../../../../img/aboutBox/company_m.png"); width:36.458333vw; /*280/768*100*/ height: 48.697917vw; /*374/768*100*/}
+  .content_2{float:left; background-image:url("../../../../../img/aboutBox/vision_m.png");}
+  .content_3{float:right; background-image:url("../../../../../img/aboutBox/history_m.png");}
+
+}

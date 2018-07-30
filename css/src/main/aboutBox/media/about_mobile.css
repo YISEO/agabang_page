@@ -1,0 +1,30 @@
+
+
+@media screen and (max-width:480px) {
+
+  #aboutBox {padding:1rem; height:auto; background-color:#fff;}
+  
+  .about_title {padding-top:1.25rem; height:10rem;}
+  .about_title > h2{height: 2.5rem;}
+  .about_title  p{height: 6.25rem; margin-top: 1.875rem;}
+
+  .about_content{width: 100%; height:auto; box-sizing: border-box; padding:0.5rem;}
+
+  .about_content > ul {width: 100%; height: auto;}
+  .about_content > ul > li {margin-top: 1.5rem; width:40vw; /*192/480*100*/ height: 52.916667vw /*252/480*100*/}
+
+  .content_1{margin:auto; background-image:url("../../../../../img/aboutBox/company_m.png");}
+  .content_2{float:left; background-image:url("../../../../../img/aboutBox/vision_m.png");}
+  .content_3{float:right; background-image:url("../../../../../img/aboutBox/history_m.png");}
+
+}
+
+@media screen and (max-width:370px) {
+
+  .about_content {margin-top:1.2rem;}
+  .about_content > ul > li {width: 200px; height:252px;}
+  .about_content > ul > li:first-child {height: 250px;}
+  
+  .about_content > ul > li {float: none; margin: auto; margin-top:1rem;}
+
+}

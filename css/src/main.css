@@ -1,0 +1,59 @@
+/*main.css*/
+
+@import url('./all/headBox/headBox.css');
+@import url('./main/aboutBox/aboutBox.css');
+@import url('./main/brandBox/brandBox.css');
+@import url('./main/introBox/introBox.css');
+@import url('./main/quickBox/quickBox.css');
+@import url('./main/storeBox/storeBox.css');
+@import url('./all/footBox/footBox.css');
+
+
+/*headBox.css*/
+
+@import url('./all/headBox/media/head_mobile.css');
+@import url('./all/headBox/media/head_tablet.css');
+@import url('./all/headBox/media/head_pc.css');
+@import url('./all/headBox/media/head_pc_full.css');
+
+/*introBox.css*/
+
+@import url('./main/introBox/media/intro_mobile.css');
+@import url('./main/introBox/media/intro_tablet.css');
+@import url('./main/introBox/media/intro_pc.css');
+@import url('./main/introBox/media/intro_pc_full.css');
+
+/*aboutBox.css*/
+
+@import url('./main/aboutBox/media/about_mobile.css');
+@import url('./main/aboutBox/media/about_tablet.css');
+@import url('./main/aboutBox/media/about_pc.css');
+@import url('./main/aboutBox/media/about_pc_full.css');
+
+/*quickBox.css*/
+
+@import url('./main/quickBox/media/quick_mobile.css');
+@import url('./main/quickBox/media/quick_tablet.css');
+@import url('./main/quickBox/media/quick_pc.css');
+@import url('./main/quickBox/media/quick_pc_full.css');
+
+/*brandBox.css*/
+
+@import url('./main/brandBox/media/brand_mobile.css');
+@import url('./main/brandBox/media/brand_tablet.css');
+@import url('./main/brandBox/media/brand_pc.css');
+@import url('./main/brandBox/media/brand_pc_full.css');
+
+/*storeBox.css*/
+
+@import url('./main/storeBox/media/store_mobile.css');
+@import url('./main/storeBox/media/store_tablet.css');
+@import url('./main/storeBox/media/store_pc.css');
+@import url('./main/storeBox/media/store_pc_full.css');
+
+/*footBox.css*/
+
+@import url('./all/footBox/media/foot_mobile.css');
+@import url('./all/footBox/media/foot_tablet.css');
+@import url('./all/footBox/media/foot_pc.css');
+@import url('./all/footBox/media/foot_pc_full.css');

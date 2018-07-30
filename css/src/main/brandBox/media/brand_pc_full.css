@@ -1,0 +1,27 @@
+@media screen and (min-width:1366px) {
+
+ #brandBox {padding-top:80px; height:400px;}
+
+ #brandBox > h2{width: 240px; height: 40px; font-size:2rem;}
+
+.brand_btn {margin-top:-10px; }
+.prev {width:80px; height:60px;}
+.next {width:80px; height:60px;}
+
+
+.brand_area {width: 80%; height: 60%; margin: auto; margin-top:20px; overflow:hidden;}
+.brand_li {width: 300%; height: 100%;}
+.brand_li > ul {width: 33.333333%; height:200px; float: left;}
+.brand_li > ul > li {float: left; box-sizing:border-box; padding:0 0.5rem;}
+.brand_li > ul > li > a {width: 100%; height: 80%; background-size:50%;
+ margin-top:10px;}
+
+.brand_li > ul > li > a:hover,
+.brand_li > ul > li > a:focus {margin-top:-10px;}
+
+.brand_li_1 > li {width:24%; height: 100%;} 
+.brand_li_2 > li {width:25%; height: 100%;}
+.brand_li_3 > li {width:28%; height: 100%;}
+
+
+}

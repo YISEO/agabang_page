@@ -1,0 +1,37 @@
+@media screen and (min-width:481px) and (max-width:768px){
+
+  #visionBox {height: auto; box-sizing: border-box; padding: 1.5rem;padding-top: 100px;}
+  #visionBox h3 {width:80px; height: 30px; background-color:#0080e6;
+  line-height:30px; color:#fff; font-size:18px; font-weight:normal;
+  text-align: center;}
+  
+  /*.ideology_area*/
+  .ideology_area {width: 100%; height: auto; padding-top: 5%;}
+
+
+  .ideology {width:35%; height: auto;}
+  .ideology_1 {float: left; margin-left: 10%;}
+  .ideology_2 {float: right;}
+  .ideology_3 {float: left; margin-left:35%;}
+
+  .ideology_img {width: 150px; height: 150px; background-color:#aaa; border-radius:100%; margin-top: 15%;}
+
+  .ideology > dt{width: 100%; height: auto; font-size: 18px; margin-top: 10%;}
+  .ideology > dd{width: 100%; height:55px; margin-top: 5%;}
+
+  .img_1 {background-size:140%;}
+  .img_2 {background-size:150%;}
+  .img_3 {background-size:150%;}
+  
+  /*vision_area*/
+
+  .vision_area {width: 100%; height: auto; margin-top: 15%;}
+  .vision_img {width:39.0625vw; height:39.0625vw;/*300*/
+   min-width:200px; min-height:200px; margin:auto; margin-top:10%; 
+   background-image:url("../../../../../img/aboutBox/graph.png");
+   background-position:center;}
+
+   .vision_content {width: 100%; height: auto; margin-top:10%;}
+   .vision_content > li {width:90%; height:auto; margin-top:5%; color:#666; margin-left: 5%;}
+
+}

@@ -1,0 +1,13 @@
+/*vision.css*/
+
+#visionBox {width: 100%; word-break:keep-all;}
+
+.ideology_img{background-repeat:no-repeat; background-position:center;}
+.vision_img{background-repeat:no-repeat; background-size:100%;}
+
+.img_1 {background-image:url("../../../../img/aboutBox/ideology_1.jpg"); background-repeat:no-repeat; background-position:center;}
+.img_2 {background-image:url("../../../../img/aboutBox/ideology_2.jpg"); background-repeat:no-repeat; background-position:center;}
+.img_3 {background-image:url("../../../../img/aboutBox/ideology_3.jpg"); background-repeat:no-repeat; background-position:center;}
+
+
+.ideology > dd {color:#666;}

@@ -1,0 +1,8 @@
+/*event_page.css*/
+
+
+@import url('./eventBox/event.css');
+@import url('./eventBox/event_mobile.css');
+@import url('./eventBox/event_tablet.css');
+@import url('./eventBox/event_pc.css');
+@import url('./eventBox/event_pc_full.css');

@@ -1,0 +1,66 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+  
+  /*headBox-------------------------------------------*/
+
+  #headBox {padding:20px; height:80px;}
+
+  
+  /*-----------------------gnb-------------------------------*/
+  .gnb_wrap {width: 100%; padding-top:10px;}
+  
+  .gnb_btn {position:fixed; left:20px; top:22px;
+    width:36px; height:25px;}
+  .gnb_btn > button {width: 100%; height: 100%; padding: 0;}
+  
+  .icon_01{display: block; width: 100%; height: 2px; background-color:#aaa; transition:all 500ms ease; margin-bottom:30%;}
+  .icon_02{display: block; width: 100%; height: 2px; background-color:#aaa; transition:all 500ms ease; margin-bottom:30%;}
+  .icon_03{display: block; width: 100%; height: 2px; background-color:#aaa; transition:all 500ms ease;}
+  
+  .gnb { width:100%; height: auto; box-sizing: border-box; display: none;}
+
+  .gnb > ul {width:60%; height:auto; background-color:rgba(255,255,255,0.9);}
+  .gnb li {width:100%; height:100%; }
+  .gnb li > a {display: block; width:100%; 
+    box-sizing: border-box; padding:20px; font-size:1.125rem;
+    text-align:center; font-weight: bold; }
+  .gnb li > a:hover,
+  .gnb li > a:focus{color:#0080e6; font-weight:bold;}  
+
+
+  .gnb_menu {width: 100%; height:auto; display: none;}
+  .gnb_menu > li {width: 100%; height: 40px;}
+  .gnb_menu > li > a {font-size:14px; font-weight:normal; padding:10px;}
+  .gnb_menu > li > a:hover,
+  .gnb_menu > li > a:focus {text-decoration:underline;
+    color:#000; font-weight: normal;}
+
+
+
+  /*-------------------h1---------------------------------------------*/
+
+  h1 {width:170px; height:50px;
+      background-image:url("../../../../../img/headBox/logo.png");}
+
+  h1 > a {display: block; width: 100%; height: 100%;}
+
+  /*-------------------unb----------------------------------------------*/
+  
+  .unb {width:auto; height: 60px; top:24px;}
+
+    .language {width:40px; height: 100%; margin-right: 3vw;
+      background-image:url("../../../../../img/headBox/worldwide.svg");
+      background-repeat:no-repeat; background-size:100%;}
+    .language>span{display: block; width: 0; height:0; overflow:hidden;}
+      
+    .join_us {width:40px; height: 100%;
+      background-image:url("../../../../../img/headBox/man.svg");
+      background-repeat:no-repeat; background-size:100%;}
+    .join_us > a {width: 100%; height: 100%; display: block;}
+    .join_us span {display: block; width: 0; height:0; overflow:hidden;}
+
+    
+    .shopping_mall {display: none;}
+
+  
+
+}

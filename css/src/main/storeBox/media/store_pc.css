@@ -1,0 +1,28 @@
+@media screen and (min-width:769px) and (max-width:1366px) {
+
+  #storeBox {padding-top:40px; height:736px;}
+
+  #storeBox > form {position:absolute; background-color:rgba(255,255,255,0.7); top:50%; left:8%; margin-top:-250px; 
+    width:635px; height:540px; box-sizing:border-box; 
+    padding:20px;}
+
+
+.store_field {height:100px; margin-top: 10px;}
+
+
+.store_field select {font-size:1rem;}
+
+
+.brand_box, .store_box {width:100%; height:30px; font-size:1rem;  margin-top: 20px;}
+.area_box, .city_box {width:280px; height:30px; float: left; margin-top: 20px;}
+
+.city_box {margin-left:34px;}
+
+#keyword {width:100%; height:30px;}
+.keyword_box {margin-top: 20px;}
+.arrow_wrap:after {bottom: 0; right: 0;}
+
+.search_btn {bottom:20px; margin-left:-50px; width:100px; height:30px;}
+
+ 
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width:480px) {
+
+  #visionBox {height: auto; text-align:center; box-sizing: border-box; padding: 1rem; padding-top: 2rem;}
+  #visionBox h3 {width: 60px; height: 30px; background-color:#0080e6; text-align: center; line-height:30px; color:#fff; font-size:18px; font-weight:normal; margin: auto;}
+  
+  /*.ideology_area*/
+  .ideology_area {width: 100%; height: auto; padding-bottom:3rem;}
+
+
+  .ideology {width: 100%; height: auto;}
+  .ideology_img {width: 180px; height: 180px; background-color:#aaa; border-radius:100%; margin: auto; margin-top: 15%;}
+
+  .ideology > dt{width: 100%; height: auto; font-size: 18px; margin-top: 10%;}
+  .ideology > dd{width: 100%; height: auto; margin-top: 5%;}
+
+  .img_1 {background-size:140%;}
+  .img_2 {background-size:150%;}
+  .img_3 {background-size:150%;}
+  
+  /*vision_area*/
+
+  .vision_area {width: 100%; height: auto; margin-top: 15%;}
+  .vision_img {width:62.5vw; height:62.5vw;/*300*/
+   min-width:200px; min-height:200px; margin:auto; margin-top:10%; 
+   background-image:url("../../../../../img/aboutBox/graph.png");
+   background-position:center;}
+
+   .vision_content {width: 100%; height: auto; margin-top:10%; text-align:center;}
+   .vision_content > li {width: 100%; height:auto; margin-top:5%;}
+
+}

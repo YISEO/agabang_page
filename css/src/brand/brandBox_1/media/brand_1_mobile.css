@@ -1,0 +1,28 @@
+@media screen and (max-width:480px) {
+
+	/*공통*/
+	#brandBox_1 {padding: 1.5rem; overflow:hidden;}
+	.brandBox > h3 {font-size:18px; width: 220px; height:26px; background-color:#0080e6; color:#fff; text-align:center; line-height:26px;}
+	
+
+	.brandBox > ul {margin-top: 2rem; width:100%; height: auto;}
+	.brandBox > ul > li {float:left; width: auto; height: 24px; margin-right:5%;}
+
+	.brand_content_1 {width: 100%; height:auto; background-color:#fac; /*box-sizing:border-box; padding: 1rem;*/ margin-top:2rem; overflow: hidden;}
+
+	.brand_img {width: 800%; height:220px;}
+	.brand_img > li {width:12.5%; height:100%; float:left;}
+
+
+	.brand_area_1 {width:800%; height:auto;}
+
+	.brand_1 {width:12.5%; height:auto; float:left;}
+	.brand_1 > dt {width: 100%; margin-top: 20px; font-size: 18px;}
+	.brand_1 > dd {width: 100%; margin-top: 20px; font-size: 15px;}
+	.brand_1 > dd:last-of-type {display: none;}
+
+	.brand_btn {display: none;}
+
+
+
+}

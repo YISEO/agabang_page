@@ -1,0 +1,30 @@
+/*ceo.css*/
+
+#about_wrap {width: 100%; height: auto;  z-index:2000;}
+.about_li_wrap {z-index:2000;}
+
+#ceoBox {width: 100%; background-color:#fff; box-sizing: border-box;
+word-break:keep-all;}
+
+
+.ceo_img {background-image:url('../../../../img/aboutBox/ceo_img.png');background-repeat:no-repeat; background-position:center;}
+
+.ceo_text > dt > strong {color:#0080e6; font-weight:normal;}
+.ceo_text > dd {color:#666;}
+
+.ceo_area {opacity:0; transform:translate(0, 300px); transition:all 500ms linear;}
+.intro_area {opacity:0; transform:translate(0, 300px); transition:all 500ms linear 400ms;}
+
+.ceo_area.ani {opacity:1; transform:translate(0);}
+.intro_area.ani {opacity:1; transform:translate(0);}
+
+/*intro area*/
+
+.hope_img {background-image:url("../../../../img/aboutBox/hope.jpg");
+background-repeat:no-repeat; background-position:center;}
+.customer_img {background-image:url("../../../../img/aboutBox/customer.jpg");
+background-repeat:no-repeat; background-position:center;}
+.love_img {background-image:url("../../../../img/aboutBox/love.jpg");
+background-repeat:no-repeat; background-position:center;}
+
+.intro > dd {color:#666;}

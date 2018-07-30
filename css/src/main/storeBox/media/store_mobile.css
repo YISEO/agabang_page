@@ -1,0 +1,8 @@
+@media screen and (max-width:480px) {
+
+  #storeBox {height: 360px;}
+  #storeBox > form {display: none;}
+  #storeBox > h2 > span {overflow: hidden; width: 0; height: 0; display: block;}
+
+  #storeBox {background-image:url("../../../../../img/storeBox/store_mob_bg.jpg"); background-repeat: no-repeat; background-size:contain; background-position:center; }
+}

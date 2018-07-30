@@ -1,0 +1,29 @@
+@media screen and (min-width:1366px) {
+
+ #introBox {height: 550px; margin-top:240px;}
+
+   .intro_btn {top: 50%; margin-top:-50px;}
+
+  .prev_btn {width: 4.375rem; height: 3.75rem; margin-left: 50px;}
+  .next_btn {width: 4.375rem; height: 3.75rem; margin-right: 50px;}
+
+  .intro_li_1{background-image:url("../../../../../img/introBox/intro_img_pc.png");}
+
+
+  /*text 부분*/
+  .intro_1 {  position: relative; width:350px; height:350px; top:60px; 
+    left:50%; margin-left:30px; }
+  
+  .intro_1 > p {font-size:1.5rem; padding:9rem 1rem;}
+
+  .intro_1 > p:before{content:"\f100"; position:absolute; top:60px; left: 50%; margin-left:-30px; font-size:2.375rem; color:#fff; font-family: Flaticon;}
+  .intro_1 > p:after{content:"\f100"; position:absolute; bottom:60px; left: 50%; margin-left:5px; transform: rotateZ(180deg); font-size:2.375rem; color:#fff; 
+    font-family: Flaticon;}
+
+
+  .indicator {width:auto; height: 22px; bottom:1.5rem;
+    margin-left:-30px;}
+  .indicator > li {width: 22px; height: 100%;}
+
+
+}

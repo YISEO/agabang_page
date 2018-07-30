@@ -1,0 +1,75 @@
+@media screen and (min-width:481px) and (max-width:768px){
+  
+ #ceoBox {height:auto;}
+  .about_li_wrap{display: none;}
+
+
+  #ceoBox h3 {height: 30px; background-color:#0080e6; line-height:30px; color:#fff; font-size:18px; font-weight:normal; text-align: center;}
+
+  .ceo_area > h3 {width: 140px;}
+  .intro_area > h3 {width: 200px;}
+
+  /*ceo_area*/
+
+  .ceo_area {width: 100%; height: auto; box-sizing:border-box; padding:1.5rem;}
+
+  .ceo_img {width: 40%; height: 300px; margin-top:10%; background-size:contain; float: left;}
+
+  .ceo_text {width:55%; height:auto; margin-top:20%; float: right;}
+  .ceo_text > dt {width: 100%; height:100%; font-size:18px;}
+  .ceo_text > dt > strong{font-size:20px;}
+  .ceo_text > dd:nth-of-type(1) {margin-top: 10%;}
+  .ceo_text > dd:nth-of-type(2) {display: none;}
+
+  /*intro_area*/
+
+  .intro_area {width: 100%; height: auto; box-sizing: border-box; padding:1.5rem;}
+
+
+  .intro_li {width: 100%; height: auto; margin-top:8%;}
+  
+  .intro_li_1 {width: 100%; height: auto; }
+
+  .intro {width:35%; height:auto;}
+  .hope {float: left; margin-left: 10%;}
+  .customer {float: right;}
+  .love {float: left; margin-left:35%;}
+
+  .img {width: 160px; height: 160px; background-color:#aaa; border-radius:100%; margin-top: 15%;}
+  .intro > dt {font-size: 18px; margin-top: 10%;}
+  .intro > dd {margin-top: 5%;}
+
+  .hope_img {background-size:130%;}
+  .customer_img {background-size:172%;}
+  .love_img {background-size:150%;}
+
+  /*intro_li_2*/
+
+  .intro_li_2 {width:78.125vw; /*600*/ height:auto; margin: auto; margin-top:10%;}
+
+  .intro_li_2 > dl {width:50%; height:35vw; border:1px solid #000; box-sizing:border-box; padding:1rem; float: left;}
+
+  .intro_li_2 > dl:nth-of-type(2n-1){border-right: 0;}
+  .intro_li_2 > dl:nth-of-type(1),
+  .intro_li_2 > dl:nth-of-type(2),
+  .intro_li_2 > dl:nth-of-type(3),
+  .intro_li_2 > dl:nth-of-type(4){border-bottom: 0;}
+
+  .intro_li_2 > dl > dt {width: 100%; height:auto; 
+  color:#ff6000; font-size:18px;}
+  .intro_li_2 > dl > dd {width:100%; height:auto; margin-top: 5%; color:#666;}
+
+
+}
+
+
+@media screen and (min-width:568px) and (max-width:582px){
+
+  .intro_li_2 > dl {height: 40vw;}
+}
+
+
+@media screen and (min-width:481px) and (max-width:568px){
+
+  .intro_li_2 > dl {height: 51vw; }
+}

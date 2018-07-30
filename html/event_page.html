@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- brand_page.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/jejugothic.css" />
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/event/event_page.css" />
+  <!--  ie  -->
+  <!-- [if lte IE 9]>
+   <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+   <script src="../ie/pie/PIE_IE9.js"></script>
+  <![endif]-->
+
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
+  <link rel="apple-touch-icon" href="../favicon.png" />
+  <title>event_page</title>
+</head>
+
+
+<body>
+  
+  <!-- design -->
+
+  <div id="event_wrap">
+
+    <h3 class="hidden">진행중인 이벤트</h3>
+    <h3 class="hidden">종료된 이벤트</h3>
+    <h3 class="hidden">당첨자발표</h3>
+
+    <ul class="event_tab">
+      <li class="select"><a href="#">진행중인 이벤트</a></li>
+      <li><a href="#">종료된 이벤트</a></li>
+      <li><a href="#">당첨자 발표</a></li>
+    </ul>
+    
+
+    <div class="tab_text">
+
+      <article id="present_event" class="select">
+      
+        <div class="main_event_img"></div>
+      
+          <div class="our_brand">
+          
+          <label for="brand" class="hidden">브랜드 리스트</label>
+          <select name="brand" id="brand">
+            <option>OUR BRAND</option>
+            <optgroup label="모든 브랜드">
+              <option value="">아가방</option>
+              <option value="">디어베이비</option>
+              <option value="">아가방갤러리</option>
+              <option value="">에뜨와</option>
+              <option value="">타이니 플렉스</option>
+              <option value="">쁘띠마르숑</option>
+              <option value="">넥스트맘</option>
+              <option value="">이야이야오</option>
+              <option value="">퓨토</option>
+              <option value="">디자인스킨</option>
+            </optgroup>
+          </select>
+          
+        </div>
+        
+        <ul class="event_list">
+          <li>
+            <a href="#">
+              <div class="event_img"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">한번도 본 적 없는 띵템특가 이벤트<br />
+                 기간 : 2018년 06월 15일 ~ 2018년 07월 11일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">딱 한달간 진행하는 디자인 스킨몰 특가 이벤트<br />
+                 기간 : 2018년 07월 01일 ~ 2018년 07월 31일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img"></div>
+              <p class="brand_name">퓨토</p>
+              <p class="brand_ex">신규 회원 가입시 세제 SET 증정 이벤트<br />
+                 기간 : 2018년 07월 10일 ~ 2018년 07월 17일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">구매하신 상품에대한 상품평 쓰기 EVENT<br />
+                 기간 : 2018년 06월 25일 ~ 2018년 07월 10일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">웰컴 마일리지 EVENT<br />
+                 기간 : 2018년 07월 01일 ~ 2018년 07월 31일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img"></div>
+              <p class="brand_name">넥스트맘</p>
+              <p class="brand_ex">퓨토와 함께 진행하는 샘플 신청 EVENT<br />
+                 기간 : 2018년 07월 05일 ~ 2018년 07월 20일</p>
+            </a>
+          </li>        
+        </ul>
+      
+        <form action="#" method="get">
+          <fieldset class="search_field">
+      
+            <legend><span class="hidden">정보 입력</span></legend>
+      
+            <div class="search_list">
+              <select name="searchList" id="searchList">
+                <option value="">이름</option>
+                <option value="">제목</option>
+                <option value="">내용</option>
+              </select>
+            </div>
+      
+            <div class="seach_text">
+              <input type="text" name="searchText" id="searchText" />
+            </div>
+      
+            <div class="search_btn">
+              <button type="submit" name="searchBtn" id="searchBtn" value=""
+              placeholder="search" />
+            </div>
+      
+          </fieldset>
+        </form>
+      
+      </article>
+
+      <article id="end_event">
+        <h2> tab test <h2>
+      </article>
+      <article id="win_event">
+        <h2> tab test_ing </h2>
+      </article>
+
+    </div>
+
+
+  </div>
+
+  <!-- javascript -->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/event_page/event_page.js"></script>
+
+</body>
+
+</html>

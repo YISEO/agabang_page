@@ -1,0 +1,28 @@
+@media screen and (min-width:769px) and (max-width:1366px){
+
+  #introBox {height:575px; margin-top:220px;}
+  
+  .intro_btn {top: 50%; margin-top:-40px;}
+
+  .prev_btn {width: 4.375rem; height: 3.75rem;}
+  .next_btn {width: 4.375rem; height: 3.75rem;}
+
+  
+  .intro_li_1{background-image:url("../../../../../img/introBox/intro_img_pc.png"); }
+
+  .intro_1 {width: 340px; height: 340px; top:60px; left: 50%; margin-left:20px;}
+
+  .intro_1 > p {position:relative; color:#fff; font-size:1.5rem; width: 100%; height: 100%; box-sizing: border-box; padding:8rem 1rem; text-align:center; border-radius:100%;}
+
+  .intro_1 > p:before{content:"\f100"; position:absolute; top:50px; left: 50%; margin-left:-30px; font-size:2rem; color:#fff; font-family: Flaticon;}
+  .intro_1 > p:after{content:"\f100"; position:absolute; bottom:50px;
+    left: 50%; margin-left:5px; transform: rotateZ(180deg);
+    font-size:2rem; color:#fff; font-family: Flaticon;}
+
+
+  .indicator {width:auto; height: 22px; bottom:1.5rem;
+    margin-left:-30px;}
+  .indicator > li {width: 22px; height: 100%;}
+
+
+}

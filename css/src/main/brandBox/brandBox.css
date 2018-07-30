@@ -1,0 +1,28 @@
+/*brandBox.css*/
+
+#brandBox {position:relative; box-sizing: border-box; width: 100%; background-color:#fff;}
+
+h2{margin: auto; text-align:center; text-transform:uppercase;}
+.brand_btn {position: absolute; width: 100%; height: 0; top: 54%; left:0;}
+
+.prev {float: left; background-image:url("../../../../img/brandBox/left.png"); background-repeat:no-repeat; background-size:100%; background-position: center; 
+  margin-left:2%;} 
+.next {float: right; background-image:url("../../../../img/brandBox/right.png"); background-repeat:no-repeat; background-size:100%; background-position: center;
+  margin-right:2%;} 
+
+.brand_area {width: 80%; height: 60%; margin: auto; margin-top:20px; overflow:hidden;}
+.brand_li {width: 300%; height: 100%;}
+.brand_li > ul {width: 33.333333%; height:200px; float: left;}
+.brand_li > ul > li {float: left; box-sizing:border-box; padding:0 2rem;}
+.brand_li > ul > li > a {width: 100%; height: 100%; display: block; background-repeat:no-repeat; background-position: center; }
+
+.brand_1 > a {background-image:url("../../../../img/brandBox/agabang_logo.jpg");}
+.brand_2 > a {background-image:url("../../../../img/brandBox/ettoi_logo.jpg");}
+.brand_3 > a{background-image:url("../../../../img/brandBox/dearbaby_logo.png");}
+.brand_4 > a{background-image:url("../../../../img/brandBox/eya_logo.jpg");}
+.brand_5 > a{background-image:url("../../../../img/brandBox/agallery_logo.png");}
+.brand_6 > a{background-image:url("../../../../img/brandBox/nextmom_logo.jpg");}
+.brand_7 > a{background-image:url("../../../../img/brandBox/petit_logo.jpg");}
+.brand_8 > a{background-image:url("../../../../img/brandBox/tiny_logo.jpg");}
+.brand_9 > a{background-image:url("../../../../img/brandBox/putto_logo.jpg");}
+.brand_10 > a{background-image:url("../../../../img/brandBox/design_logo.png");}

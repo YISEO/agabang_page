@@ -1,0 +1,12 @@
+@media screen and (min-width:481px) and (max-width:768px){
+
+  #historyBox {width: 100%; height: auto; box-sizing:border-box; padding: 1.5rem;}
+  #historyBox h3 { width: 80px; height: 30px; background-color:#0080e6; line-height:30px; color:#fff; font-size:18px; 
+    font-weight:normal; text-align: center; margin-bottom:2%;}
+
+  .history_content {width:100%; height: auto; box-sizing:border-box;
+    padding-top:2rem; padding-left:1rem;}
+  .history_content > dl {width: 100%; height:80px; margin-bottom:4%; margin-left: 4%;}
+  .history_content > dl > dt {font-size:20px; color:#ff6000; width:60px; height:100%; float: left;}
+  .history_content > dl > dd {width:80%; height:auto; float: left; color:#666;}
+}

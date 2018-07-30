@@ -1,0 +1,22 @@
+/*brandBox_2.css*/
+
+#brand_wrap {width: 100%; height: auto;}
+
+.brandBox_2 {box-sizing:border-box; width: 100%; height: auto; background-color:#ffa; }
+.brandBox_2 > ul > li {color:#666;}
+.brandBox_2 > ul > li.active {color:#0080e6;}
+
+.brandBox_2 > ul > li:after {content:" "; display: block; width: 1px; height:10px; 
+border-right:1px solid #aaa;}
+
+.brandBox_2 > ul > li:last-child:after {display: none;}
+
+
+.brand_2 {box-sizing:border-box;}
+.brand_2 > dt {height: auto; color:#ff6000;}
+.brand_2 > dd {height: auto; color:#666;}
+
+.putto_img {background-image:url("../../../../img/brandBox/brand_img/putto_2.jpg");
+background-repeat:no-repeat; background-position:center;}
+.design_skin_img {background-image:url("../../../../.../img/brandBox/brand_img/putto_2.jpg");
+background-repeat:no-repeat; background-size:100%; background-position:center;}

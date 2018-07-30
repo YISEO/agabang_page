@@ -1,0 +1,35 @@
+@media screen and (min-width:769px) and (max-width:1366px) {
+
+  #footBox {height: 240px; background-color:#fff; font-size: 14px; position:relative; box-sizing:border-box; padding-left:5%; padding-top:45px; border-top:2px solid #aaa;}
+
+  .company_info {width:80%; height: 20px;}
+  .company_info > ul {width: 100%; height: 100%;}
+  .company_info > ul > li > a {width: 100%; height: 100%; display: block;}
+  .font_color {color:#0080e6;}
+
+  .info {float:left; width: 10%; height: 100%; margin-right: 2%;}
+  .f_info_5{float:left; width: 20%; height: 100%;
+  margin-right: 2%;}
+  .f_info_6{float:left; width: 18%; height: 100%;
+  margin-right: 2%;}
+  .f_info_7{margin-right: 0;}
+
+  address {width: 618px; height: 60px; margin-top: 48px; font-style:normal;}
+  address > ul {width: 100%; height: 100%;}
+  address > ul > li {float: left; /*font-size:14px;*/}
+
+  .s_info_1, .s_info_4 {width: 242px; height: 20px; margin-right: 38px;}
+
+  .s_info_2, .s_info_5 {width: 120px; height: 20px; margin-right: 34px;}
+
+  .s_info_4, .s_info_5 {margin-top: 20px;}
+
+
+  #footBox > p {width:398px; height: 20px; background-color:#fff;
+    margin-top: 20px;}
+  
+  .family_site {position:absolute; right:10px; top:45px;}
+  #site{float: left; width:100px; height: 20px; text-indent:0.5rem;}
+  .move {float: right; display: block; width: 30px; height:20px; background-color:#0080e6; color:#fff; text-align:center; line-height:20px; margin-left:5px;}
+
+}

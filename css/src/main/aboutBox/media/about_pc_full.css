@@ -1,0 +1,21 @@
+@media screen and (min-width:1366px) {
+
+ #aboutBox {padding:1.5rem; height:auto; background-color:#fff;}
+
+  .about_title {padding-top: 3rem; height: 190px;}
+  .about_title > h2{height: 2.5rem; font-size:2rem; }
+  .about_title > p{height: 6.25rem; margin-top: 1.875rem; font-size:1.125rem;}
+  
+  .about_content {margin: auto; width:770px; height: 440px;}
+  
+  .about_content > ul {position:relative;}
+
+  .content_1{position:absolute; width: 290px; height:440px; top:50%; left:50%; margin-top:-200px;
+    margin-left: -145px; background-image:
+    url("../../../../../img/aboutBox/company_p.png");}
+  .content_2{float: left; margin-top: 45px; width: 245px; height: 345px;
+  background-image:url("../../../../../img/aboutBox/vision_p.png");}
+  .content_3{float: right; margin-top: 45px; width: 244px; height: 345px;
+  background-image:url("../../../../../img/aboutBox/history_p.png");}
+
+}

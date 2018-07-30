@@ -1,0 +1,6 @@
+/*membership.css*/
+
+#membership_wrap {word-break:keep-all;}
+
+.doodoo_img {background-image:url("../../../../img/membershipBox/doodoo_img.gif");
+background-repeat:no-repeat; background-size:100%; background-position:center;}

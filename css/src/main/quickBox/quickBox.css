@@ -1,0 +1,15 @@
+/*quickBox.css*/
+
+#quickBox {width: 100%; background-color:#fff;}
+
+#quickBox > h2 {margin: auto; text-transform: uppercase;}
+.quick_content {margin: auto; margin-top: 40px;}
+
+.quick dl > dt {text-transform:uppercase;}
+
+.quick {background-repeat: no-repeat;}
+.quick_img {background-repeat: no-repeat;}
+
+
+
+

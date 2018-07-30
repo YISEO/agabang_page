@@ -1,0 +1,30 @@
+/*intro_mobile.css*/
+  
+  @media screen and (max-width:480px) {
+
+  #introBox {box-sizing:border-box; height: 16.25rem; margin-top:60px;}
+
+  .btn{display: none;}
+  .intro_li_1{background-image:url("../../../../../img/introBox/intro_img.png");}
+
+
+  .intro_1 {width: 174px; height: 174px; top:50px; left:50%;}
+  
+  .intro_1 > p {font-size:0.875rem; padding:4rem 1rem;}
+
+  .intro_1 > p:before{content:"\f100"; position:absolute; top:20px; left: 50%; margin-left:-30px; font-size:1.5rem; color:#fff; font-family: Flaticon;}
+  .intro_1 > p:after{content:"\f100"; position:absolute; bottom:20px;
+    left: 50%; margin-left:5px; transform: rotateZ(180deg);
+    font-size:1.5rem; color:#fff; font-family: Flaticon;}
+
+  .indicator {width:auto; height:18px; 
+    bottom:1rem; margin-left: -1.25rem;}
+
+  .indicator > li {width: 18px; height: 100%;}
+  .li_1 {margin-right: 14px;}
+
+}
+
+@media screen and (max-width:360px) {
+  .intro_1 {top: 50%; left:40%; margin-top: -89px;}
+}

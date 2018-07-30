@@ -1,0 +1,16 @@
+/*history_pc.css*/
+
+@media screen and (min-width:1367px) {
+
+   #historyBox {width: 100%; height: auto; padding-top:150px; 
+  background-color:#fff;}
+  
+  #historyBox > h3 {width: 210px; height: 40px; text-align:center; margin: auto; font-size:22px; line-height:40px; margin-bottom:30px;}
+  .history_content > dl {width: 0; height: 0; overflow: hidden;}
+
+  .history_img {width: 100%; height:720px; margin: auto; 
+  background-image:url("../../../../../img/aboutBox/history.png");
+  background-repeat:no-repeat; background-size:contain;
+  background-position:center; }
+  
+}
