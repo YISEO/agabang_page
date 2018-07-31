@@ -1,5 +1,44 @@
 @media screen and (min-width:769px) and (max-width:1366px) {
 
 	/*공통*/
+
+  #brand_wrap {width:100%; height:auto; background-color:#fac; position:relative;}
 	
+  .brandBox {width:80.527086vw;/*1100px;*/ height: auto; margin: auto; box-sizing:border-box; padding-top: 2rem;}
+
+
+
+  #brandBox_1 > ul {box-sizing:border-box; padding:1rem 2rem;
+   width:80%; height:auto; margin: auto; margin-top: 2rem; font-size:17px;}
+  #brandBox_1 > ul > li {position:relative; float: left; text-align:center; width: 150px; height:30px; line-height:30px;}
+  #brandBox_1 > ul > li:after {margin-right: 0;}
+  /*#brandBox_1 > ul > li:nth-child(6) {margin-left: 40%;}*/
+
+  /*brand_content_1*/
+
+  .brand_content_1 {width:80%; height: auto; background-color:#fff; margin: auto; margin-top: 4rem; overflow: hidden;}
+
+  .brand_img {width:800%; height:350px; background-color:#acc; margin: auto;}
+  .brand_img > li {width: 12.5%; height: 100%; float: left;}
+  
+  .logo_wrap {width: 310px; height: 80px; margin: auto; margin-top:8%; overflow: hidden;}
+  .logo_img {width: 800%; height: 100%;}
+  .logo_img > li {width: 12.5%; height: 100%; float: left;}
+
+
+  /*brand_area_1*/
+
+  .brand_area_1 {width: 800%; height: auto;}
+  .brand_1 {width: 12.5%; height:auto; float: left; text-align:center; }
+  .brand_1 > dt {font-size:22px; margin-top:8%;}
+  .brand_1 > dd {width:80%;  height: auto; font-size:18px; margin: auto; margin-top:10%;}
+
+
+
+  #brandBox_2 > h3 {position:absolute; top:2rem; /*left:420px;*/ width: 200px; height: 40px; line-height:40px; color:#666;
+    text-align:center;}
+
+  #brandBox_2 > ul {display: none;} 
+  #brandBox_2 > button {display: none;}
+  .brand_content_2 {display: none;}
 }
