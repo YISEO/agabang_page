@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/jejugothic.css" />
   <link rel="stylesheet" href="../css/base/reset.css" />
+  <!-- <link rel="stylesheet" href="../css/src/main.css" /> -->
   <link rel="stylesheet" href="../css/src/membership/membership_page.css" />
   <!--  ie  -->
   <!-- [if lte IE 9]>
@@ -20,7 +21,7 @@
   <!-- favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
   <link rel="apple-touch-icon" href="../favicon.png" />
-  <title>event_page</title>
+  <title>membership_page</title>
 </head>
 
 
@@ -30,9 +31,7 @@
 
   <div id="membership_wrap">
 
-    <h3 class="hidden">가입안내 및 기준</h3>
-    <h3 class="hidden">두두 포인트</h3>
-    <h3 class="hidden">포인트별 사은품</h3>
+    <div class="headBox"></div>
 
     <ul class="membership_tab">
       <li class="select"><a href="#">가입안내 및 기준</a></li>
@@ -43,18 +42,24 @@
 
     <div class="m_tab_text">
 
-      <article id="doodoo">
+      <article id="doodoo" class="select">
         
-        <div class="join_us">
+        <div class="m_join_us">
 
           <div class="join_intro">
             <div class="membership_img">
 
             <div class="doodoo_img"></div>
             <ul>
-              <li><span class="hidden">까꿍</span></li>
-              <li><span class="hidden">잼잼</span></li>
-              <li><span class="hidden">튼튼</span></li>
+              <li class="dd_img_1">
+                <span class="hidden">까꿍</span>
+              </li>
+              <li class="dd_img_2">
+                <span class="hidden">잼잼</span>
+              </li>
+              <li class="dd_img_3">
+                <span class="hidden">튼튼</span>
+              </li>
             </ul>
             </div>
 
@@ -69,9 +74,10 @@
           </div>  
 
           <div class="join_content">
-            <h3>가입안내</h3>
-            <p>두두멤버십의 모든 서비스를 이용하기 위해서는, 아가방앤컴퍼니 사이트의 회원가입이 필요합니다.</p>
-            <P>(단, 기존회원은 통합회원 전환 시, 기존 적립 포인트의 사용이 가능하며 아가방앤컴퍼니 두두멤버십의 자격을 유지할 수 있습니다.)</P>
+            <h4>가입안내</h4>
+            <p>두두멤버십의 모든 서비스를 이용하기 위해서는,
+            아가방앤컴퍼니 사이트의 회원가입이 필요합니다.</p>
+            <p class="content_h">(단, 기존회원은 통합회원 전환 시, 기존 적립 포인트의 사용이 가능하며 아가방앤컴퍼니 두두멤버십의 자격을 유지할 수 있습니다.)</p>
           
           <div class="join_list join_list_1">
             <div class="join_img li_img_1"></div>
@@ -109,7 +115,151 @@
 
         </div>
         
-        <div class="benefit"></div>
+        <div class="benefit">
+          
+          <h4>선정기준 및 주요혜택</h4>
+
+          <div class="grade_b grade_b_s">
+          
+          <h5>등급별 혜택</h5>
+          <ul class="clearfix">
+            <li>
+              <div class="grade_img grade_img_1"></div>
+              <p>최근 3개월 내 <br /> 구매횟수 1회 이하</p>
+            </li>
+            <li>
+              <div class="grade_img grade_img_2"></div>
+              <p>최근 3개월 내
+                 구매금액 10만원 이상
+                 또는 구매 횟수 2~4회</p>
+            </li>
+            <li>
+              <div class="grade_img grade_img_3"></div>
+              <p>최근 3개월 내
+                 구매금액 30만원 이상
+                 또는 구매 횟수 5회</p>
+            </li>
+            <li>
+              <div class="grade_img grade_img_4"></div>
+              <p>잼잼, 튼튼 회원들을 위한 VIP 특가존</p>
+            </li>
+          </ul>
+          
+          <!-- table-------------------------------------- -->
+          <table summary="등급별 혜택에 관한 표">
+            <caption><span class="hidden">등급별 혜택</span>
+            </caption>
+
+              <colgroup>
+                <col class="grade_title" />
+                <col class="grade_1" />
+                <col class="grade_1" />
+                <col class="grade_1" />
+              </colgroup>
+
+            
+            <thead>
+              <tr>
+                <th></th>
+                <th class="dd_img_1 dd_img"></th>
+                <th class="dd_img_2 dd_img"></th>
+                <th class="dd_img_3 dd_img"></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr> 
+                <td rowspan="3">오프라인 <br /> 브랜드매장</td>
+                <td>1% 포인트 적립</td>
+                <td>2% 포인트 적립</td>
+                <td>3% 포인트 적립</td> 
+              </tr>
+              <tr> 
+                <td></td>
+                <td>잼잼데이 20% <br /> 할인 (1회/반기)</td>
+                <td>튼튼데이 30% <br /> 할인 (1회/분기)</td> 
+              </tr>
+              <tr class="border"> 
+                <td></td>
+                <td></td>
+                <td>튼튼KIT 제공 <br />(100명 한정, 1회/1년) </td> 
+              </tr>
+              <tr> 
+                <td rowspan="4">온라인 <br /> NEXT MOM</td>
+                <td>3% 마일리지 <br > 적립</td>
+                <td>5% 마일리지 <br > 적립</td>
+                <td>7% 마일리지 <br > 적립</td> 
+              </tr>
+              <tr> 
+                <td class="border">5% 상시 할인</td>
+                <td class="border">10% 상시 할인</td>
+                <td class="border">10% 상시 할인</td> 
+              </tr>
+              <tr> 
+                <td rowspan="2"></td>
+                <td rowspan="2" colspan="2">VIP 특가존 이용가능
+                <br />
+                <br />
+                ※ VIP 특가존이란? 잼잼 튼튼회원들만 이용할 수 있는 
+                카테고리로 생필품을 VIP만의 특별 할인가로 구매가 가능합니다. (로그인 시 확인 가능합니다.)</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          </div>
+          
+          <!-- join_benefit------------------------------- -->
+          <div class="grade_b join_b">
+          
+          <h5>회원가입 시 혜택</h5>
+          <ul class="clearfix">
+            <li class="join_1">
+              <div class="grade_img join_img_1"></div>
+              <p>가입 축하 <br /> 1000p 적립</p>
+            </li>
+            <li>
+              <div class="grade_img join_img_2"></div>
+              <p>아가방, 디어베이비 매장에서 
+              <br />신규가입 시 3000p 적립</p>
+            </li>
+            <li>
+              <div class="grade_img join_img_3"></div>
+              <p>에뜨와 매장 신규가입 시 <br />
+                 - 5000원 할인쿠폰<br />
+                 - 10%할인쿠폰</p>
+            </li>
+            <li>
+              <div class="grade_img join_img_4"></div>
+              <p>넥스트맘<br /><span>www.nextmom.co.kr</span><br />
+              3,000점 마일리지 적립</p>
+            </li>
+          </ul>
+
+          </div>
+
+          <div class="grade_b child_b">
+          
+          <h5>자녀정보 입력 시 혜택</h5>
+          <ul class="clearfix">
+            <li>
+              <div class="grade_img child_img_1"></div>
+              <p>자녀백일 (5일전)</p>
+              <p>- 이유식 식기 세트 <br />
+                 - 모자, 신발 20% 할인
+              </p>
+            </li>
+            <li>
+              <div class="grade_img child_img_2"></div>
+              <p>자녀생일 (5일전)</p>
+              <p>- 시즌 의류 20% 할인권</p>
+            </li>
+          </ul>
+
+          </div>
+
+        </div>
 
       </article>
 
@@ -119,13 +269,17 @@
 
     </div>
 
+    <div class="footBox"></div>
 
   </div>
 
   <!-- javascript -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/load.js"></script>
   <script src="../js/src/membership_page/membership_page.js"></script>
+
+
 
 </body>
 
