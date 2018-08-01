@@ -11,8 +11,8 @@
 
   /*ceo_area*/
 
-  .ceo_area {width: 100%; height: auto; box-sizing: border-box; padding:1rem;
-    opacity:0; transform:translate(0, 300px); transition:all 400ms linear;}
+  .ceo_area {width: 100%; height: auto; box-sizing: border-box; padding:1rem; 
+    padding-top: 6rem;}
   .ceo_area.ani {opacity:1; transform:translate(0);}
 
   .ceo_img {width: 80%; height: 300px; margin: auto; margin-top:15%;background-size:contain;}
@@ -26,7 +26,7 @@
   /*intro_area*/
 
   .intro_area {width: 100%; height: auto; box-sizing: border-box; padding:1rem;
-    opacity:0; transform:translate(0, 300px); transition:all 400ms linear 600ms;}
+  /*  opacity:0; transform:translate(0, 300px); transition:all 400ms linear 600ms;*/}
 
 
   .intro_li {width: 100%; height: auto;}

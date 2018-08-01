@@ -1,7 +1,7 @@
 /*vision_pc_full.css*/
 @media screen and (min-width:1367px) {
 
-  #visionBox {height:auto; padding-top:140px; background-color:#fff;}
+  #visionBox {height:auto; padding-top:330px; background-color:#fff;}
 
 #visionBox h3 {width: 90px; height:30px; text-align:center; line-height:30px; margin: auto; margin-top:50px; font-size:22px;}
 

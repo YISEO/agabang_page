@@ -1,5 +1,13 @@
 /*brand_page.css*/
 
+/*headBox*/
+
+@import url('../all/headBox/media/head_mobile.css');
+@import url('../all/headBox/media/head_tablet.css');
+@import url('../all/headBox/media/head_pc.css');
+@import url('../all/headBox/media/head_pc_full.css');
+@import url('../all/headBox/headBox.css');
+
 /*brand_area*/
 
 @import url('./brandBox_1/brandBox_1.css');
@@ -18,3 +26,11 @@
 @import url('./brandBox_2/media/brand_2_tablet.css');
 @import url('./brandBox_2/media/brand_2_pc.css');
 @import url('./brandBox_2/media/brand_2_pc_full.css');
+
+/*footBox*/
+
+@import url('../all/footBox/media/foot_mobile.css');
+@import url('../all/footBox/media/foot_tablet.css');
+@import url('../all/footBox/media/foot_pc.css');
+@import url('../all/footBox/media/foot_pc_full.css');
+@import url('../all/footBox/footBox.css');

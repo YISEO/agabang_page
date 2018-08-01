@@ -1,6 +1,7 @@
 /*brandBox_1.css*/
 
-#brand_wrap {width:100%; height:auto; background-color:#fac; position:relative; word-break:keep-all;}
+#brand_wrap {width:100%; height:auto; position:relative; word-break:keep-all;
+box-sizing:border-box;}
 
 .brandBox {box-sizing:border-box; width: 100%; height: auto; }
 .brandBox > ul > li {position:relative;}
@@ -68,3 +69,7 @@ background-position: center;}
   background-size:auto 100%;}
 .logo_8 {background-image:url("../../../../img/brandBox/agabang_logo.jpg"); background-repeat:no-repeat; 
   background-size:auto 100%;}
+
+
+.b_tab_text > article {width:100%; height:auto; display:none;}
+.b_tab_text > article.select {display: block;}

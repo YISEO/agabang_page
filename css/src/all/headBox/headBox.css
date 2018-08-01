@@ -11,7 +11,7 @@ h1 {margin: auto; background-image:url("../../../../img/headBox/logo.png");backg
 .gnb li > a {text-transform:uppercase;}
 
 .gnb > ul > li.active > a {color:#0080e6;}
-.gnb_menu {background-color:rgba(189,234,254,0.6);}
+
 
 .unb {position:fixed; right:10px;}
 .language {height:100%; float: left;}

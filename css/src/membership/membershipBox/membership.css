@@ -1,6 +1,62 @@
 /*membership.css*/
 
-#membership_wrap {word-break:keep-all;}
+.headBox{width: 100%; height:auto;}
 
-.doodoo_img {background-image:url("../../../../img/membershipBox/doodoo_img.gif");
+
+#membership_wrap {word-break:keep-all;}
+#membership_wrap h3,
+#membership_wrap h4, 
+#membership_wrap h5{font-weight: normal;}
+
+/*.membership_tab > li:first-child:after {display: none;}
+.membership_tab > li:after {content:" "; display: block; width: 1px; height:10px; border-right:1px solid #aaa;}*/
+
+.doodoo_img {background-image:url("../../../../img/membershipBox/doodoo_img.png");
 background-repeat:no-repeat; background-size:100%; background-position:center;}
+
+
+/*table */
+
+table {margin: auto; width: 900px; height: 800px; text-align:center;}
+
+thead > tr > th { height: 100px; border-bottom:1px solid #aaa;}
+tbody > tr > td{ height: 100px;}
+
+.grade_title {width: 150px; height: 100px; border-right:1px solid #aaa;}
+.grade_1{width: 250px; height: 100px;}
+
+.border {border-bottom:1px solid #aaa;}
+
+
+/*image 삽입*/
+
+.grade_img_1, .dd_img_1 {background-image:url("../../../../img/membershipBox/level_1.png"); background-repeat:no-repeat; background-size:90%; background-position:center;}
+.grade_img_2, .dd_img_2 {background-image:url("../../../../img/membershipBox/level_2.png"); background-repeat:no-repeat; background-size:90%; background-position:center;}
+.grade_img_3, .dd_img_3 {background-image:url("../../../../img/membershipBox/level_3.png"); background-repeat:no-repeat; background-size:90%; background-position:center;}
+.grade_img_4 {background-image:url("../../../../img/membershipBox/level_4.png"); background-repeat:no-repeat; background-size:90%; background-position:center;}
+
+/*가입안내 img*/
+
+.li_img_1 {background-image:url("../../../../img/membershipBox/join_img_1.svg"); background-repeat:no-repeat; 
+  background-size:contain; background-position:center;}
+.li_img_2 {background-image:url("../../../../img/membershipBox/join_img_2.svg"); background-repeat:no-repeat; 
+  background-size:contain; background-position:center;}
+.li_img_3 {background-image:url("../../../../img/membershipBox/join_img_3.svg"); background-repeat:no-repeat; 
+  background-size:contain; background-position:center;}
+
+
+  .dd_img {background-size:30%;}
+
+
+/*회원가입 시 혜택 img*/
+
+.join_img_1 {background-image:url("../../../../img/membershipBox/join_1.png"); background-repeat:no-repeat; background-size:100%; background-position:center;}
+.join_img_2 {background-image:url("../../../../img/membershipBox/join_2.png"); background-repeat:no-repeat; background-size:100%; background-position:center;}
+.join_img_3 {background-image:url("../../../../img/membershipBox/join_3.png"); background-repeat:no-repeat; background-size:100%; background-position:center;}
+.join_img_4 {background-image:url("../../../../img/membershipBox/join_4.png"); background-repeat:no-repeat; background-size:100%; background-position:center;}
+
+
+/*자녀 정보 입력시 img*/
+
+.child_img_1{background-image:url("../../../../img/membershipBox/child_img_1.png"); background-repeat:no-repeat; background-size:110%; background-position:center;}
+.child_img_2{background-image:url("../../../../img/membershipBox/child_img_2.png"); background-repeat:no-repeat; background-size:110%; background-position:center;}

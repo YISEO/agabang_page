@@ -1,7 +1,10 @@
 @media screen and (max-width:480px) {
 
 	/*공통*/
-	#brandBox_1 {padding: 1.5rem; overflow:hidden;}
+	
+	.brand_tab {display: none;}
+
+	#brandBox_1 {padding: 1.5rem; padding-top:80px; overflow:hidden;}
 	#brandBox_1 h3 {font-size:18px; width: 250px; height:26px; background-color:#0080e6; color:#fff; text-align:center; line-height:26px; font-weight: normal;}
 	
 
