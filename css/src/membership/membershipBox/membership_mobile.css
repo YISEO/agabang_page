@@ -1,12 +1,83 @@
 @media screen and (max-width:480px) {
 
-	.membership_tab {width: 150px; height: 30px; background-color:#0080e6; 
-		text-align:center; line-height:30px;}
+	.membership_tab {width: 150px; height: 30px; background-color:#0080e6; text-align:center; line-height:30px;}
 	.membership_tab > li {width: 100%; height: 100%;}
 	.membership_tab > li > a {display: block; width: 100%; height: 100%; color:#fff;}
 
 	.membership_tab > li:nth-child(2),
 	.membership_tab > li:nth-child(3){display: none;}
 	
-	.m_tab_text {width: 100%; height: auto; background-color:#fac;}
+	.m_tab_text {width: 100%; height: auto; box-sizing:border-box; padding: 1rem;}
+
+  #doodoo {width: 100%; height: auto;}
+  .join_us {width: 100%; height: auto;}
+
+  .join_intro {width: 100%; height:210px; background-color:#fff;
+    box-sizing:border-box; padding: 0.5rem;}
+  .membership_img{width: 100%; height:90px;}
+  .membership_img > ul {width:350px; height: 100%; margin: auto; margin-top: 5%;}
+  .membership_img > ul > li {width:90px; height:90px; border-radius:100%; float: left; margin-right:10%;}
+  .membership_img > ul > li:last-child {margin-right: 0;}
+
+  .text_2, .text_3 {display: none;}
+  .text_1 {text-align:center; width: 100%; height:auto; color:#ff6000; margin-top: 10%;}
+
+  .doodoo_img{display: none;}
+
+
+  /*content 부분*/
+
+  .join_content {width: 100%; height: auto; box-sizing:border-box; padding:2rem 0;}
+  .join_content > p {width: 100%; height: auto; padding-top: 1rem;}
+  .join_content > h4, .benefit > h4 {width: 100%; height:auto; font-size:18px;}
+
+
+  .content_h {display: none;}  
+
+  .join_list {width: 100%; height:auto; background-color:#fff; box-sizing:border-box; padding:2rem 1rem;}
+  .join_img {width:140px; height:100px; margin: auto;}
+  .join_list > dl { width:100%; height: 100%;}
+  .join_list > dl > dt {width: 100%; height:100%; text-align:center; margin-top: 10%; font-size:15px; color:#666;}
+  .join_list > dl > dd {display: none;}
+
+  /*benefit*/
+
+  .benefit {width: 100%; height: auto;}
+  
+  .grade_b {width: 100%; height: auto; background-color:#fff; margin-top:10%;}
+  .grade_b > h5 {font-size: 16px; margin:5% 0;}
+
+  .grade_b > ul {width: 100%; height: auto;}
+  .grade_b > ul > li {width: 49%; height: 240px; background-color:#fff; float: left; margin-right:2%; margin-bottom: 2%;}
+  .grade_b > ul > li:nth-child(2n) {margin-right: 0;}
+  .grade_b > ul > li:nth-child(3),
+  .grade_b > ul > li:nth-child(4) {margin-bottom: 0;}
+
+  .grade_img {width:100px; height:100px; margin: auto; margin-top:15%;}
+  .grade_b > ul > li > p {text-align:center; width:90%; height: auto; margin: auto; margin-top: 10%;}
+  
+  .join_b > ul > li, 
+  .child_b > ul > li {background-color:#f5f5f5;}
+  .join_b > ul > li:first-child {background-color:#e4f6ff;}
+
+  .join_b span {display: block; width: 0; height: 0; overflow: hidden;}
+
+  table {display: none;}
+
+}
+
+@media screen and (max-width:390px) {
+  
+  .join_intro {padding: 0;}
+  .membership_img > ul {width: 280px;}
+  .membership_img > ul > li {width:70px; height:70px; margin-right: 12%;}
+
+}
+
+@media screen and (max-width:310px) {
+  
+  .membership_img > ul {width: 240px;}
+  .membership_img > ul > li {width: 60px; height: 60px;}
+
+  .grade_b > ul > li {height: 250px;}
 }

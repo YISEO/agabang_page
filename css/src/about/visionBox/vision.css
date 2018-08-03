@@ -11,3 +11,10 @@
 
 
 .ideology > dd {color:#666;}
+
+
+.ideology_area {opacity:0; transform:translate(0, 300px); transition:all 500ms linear;}
+.vision_area{opacity:0; transform:translate(0, 300px); transition:all 500ms linear 400ms;}
+
+.ideology_area.ani {opacity:1; transform:translate(0);}
+.vision_area.ani {opacity:1; transform:translate(0);}

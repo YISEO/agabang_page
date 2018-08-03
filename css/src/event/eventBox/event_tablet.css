@@ -1,5 +1,6 @@
 @media screen and (min-width:481px) and (max-width:768px) {
 
+	#event_wrap {padding:1rem; padding-top:100px;}	
 
 	.event_tab > li {width: 150px; height: 30px; background-color:#0080e6; 
 		text-align:center; line-height:30px; color:#fff;}
@@ -9,30 +10,50 @@
 	#end_event{display: none;}
 	#win_event{display: none;}
 
-	#present_event {width:100%; height: auto; background-color:#ffa; margin: auto; 
+	#present_event {width:100%; height: auto; margin: auto; 
 		margin-top:5%; box-sizing:border-box; padding: 0.5rem;}
-	.main_event_img {width:95%; height: 200px; background-color:#fa5; margin: auto;
-		margin-top: 5%;}
+	.main_event_img {width:95%; height:32.552083vw;
+		/*250/768*100*/ margin: auto; margin-top: 5%;
+		margin-bottom: 10%; background-position:center;}
 
-	.our_brand {margin-top: 30px; margin-bottom: 30px;}
-	.event_list {width: 100%; height:auto;}
+	/*.our_brand {margin-top: 30px; margin-bottom: 30px;}*/
+	.our_brand {display: none;}
+
+	.event_list {width: 100%; height:auto; margin: auto;}
 	
-	.event_list > li {width:45%; height:100%; float: left; margin-left:2%; 
-		margin-right:5%;}
+	.event_list > li {width:45%; height:100%; float: left; margin-left:2.5%; margin-right:5%;}
 	
 	.event_list > li:nth-child(2n) {margin-right: 0; margin-left: 0;}
 	.event_list > li:nth-child(5),
 	.event_list > li:nth-child(6){display: none;}
 
-	.event_img {width:100%; height:200px; background-color:#acf; margin: auto;
-		margin-bottom:5%;}
+	.event_img {width:100%; height:200px; margin: auto; margin-bottom:5%;}
+
+	.event_1 {background-size:100%;}
+	.event_2 {background-size:100%;}
+	.event_3 {background-size:95%;}
+	.event_4 {background-size:95%;}
+
 	.brand_name {width:80px; height: 22px; line-height:22px;}
 	.brand_ex {width:100%; height:auto; font-size: 14px; margin-bottom:10%;}
 
-/*	#present_event > form {}
-	.search_field {width: 300px; height: 24px; margin: auto;}
-	.search_list {height: 24px;}
-	.search_text {height: 24px;}
-	.search_btn {width:100px; height:24px; background-color:#fff; color:#000;}*/
+	/*form*/
+
+	#present_event > form {width:350px; height:25px; margin: auto; margin-top: 5%; margin-bottom:5%;}
+	
+	.search_field{width:100%; height:100%;}
+
+	.search_list {width:30px; height:100%; float: left; margin-right: 5%;}
+	#searchList {width:30px; height: 100%; text-align:center;
+		font-size:14px;}
+
+
+	.search_text {width:200px; height: 100%; float: left; margin-right: 5%;}
+	.search_text > input {width: 100%; height: 100%;}
+
+	.search_btn {width:70px; height: 100%; float: left;}
+	.search {width: 100%; height: 100%; background-color:#fff;
+		color:#666; border:1px solid #000; font-size:14px;
+		text-transform:uppercase;}
 
 }

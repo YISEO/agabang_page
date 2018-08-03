@@ -7,14 +7,14 @@
     background-size:100%;}
 
 
-  #ciBox > h3 {width: 210px; height: 35px; text-align:center; line-height:35px; margin: auto; font-size:20px;}
+  #ciBox h3 {width: 210px; height: 35px; text-align:center; line-height:35px; margin: auto; font-size:20px;}
   
-  #ciBox > dl {width: 680px; height: 165px; margin: auto;
+  .ci_content {width: 680px; height: 165px; margin: auto;
     margin-top: 40px; box-sizing:border-box; padding:1rem;
     text-align:center;}
 
-  #ciBox > dl > dt {width: 100%; height:auto; font-size:18px;}
-  #ciBox > dl > dd {width: 100%; height:auto; margin-top: 30px;
+  .ci_content > dt {width: 100%; height:auto; font-size:18px;}
+  .ci_content > dd {width: 100%; height:auto; margin-top: 30px;
     color:#666;}
   
 }

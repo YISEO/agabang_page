@@ -1,12 +1,16 @@
 /*vision_pc_full.css*/
 @media screen and (min-width:1367px) {
 
-  #visionBox {height:auto; padding-top:140px; background-color:#fff;}
+#visionBox {height:auto; padding-top:100px; background-color:#fff;}
 
-#visionBox h3 {width: 90px; height:30px; text-align:center; line-height:30px; margin: auto; margin-top:50px; font-size:22px;}
+#visionBox h3 {width: 90px; height:30px; text-align:center; line-height:30px; font-size:22px;}
+
+.ideology_area > h3 {margin: auto; margin-bottom: 5%;}
+.vision_area > h3 {margin: auto; margin-top: 5%;}
 
 .ideology_area {width:74.670571vw; /*1020/1366*100*/ min-width:800px;
-  height:400px; margin: auto; padding-top:3%;}
+  height:auto; margin: auto; padding-top:3%; opacity:0; 
+  transform:translate(0, 300px); transition:all 500ms linear;}
 .ideology_area > dl {width:30%; height:100%; float: left; text-align:center;}
 .ideology_1, .ideology_2 {margin-right:5%;}
 .ideology_img {width: 250px; height: 250px; border-radius:100%;
@@ -22,11 +26,13 @@
 .ideology_area > dl > dd {width: 100%; height:auto; margin-top:30px;}
 
 
-.vision_area {width: 100%; height: 800px; background-color:#fff;}
-.vision_img {width: 100%; height: 750px; 
+.vision_area {width: 100%; height: 800px; }
+.vision_area > .area {width: 100%; height: 100%;}
+.vision_img {width: 100%; height: 750px;
 background-image:url("../../../../../img/aboutBox/visionBox.png");
 background-repeat:no-repeat; background-size:contain;
 background-position:center;}
+
 
 .vision_content {width: 0; height: 0; overflow:hidden;}
 

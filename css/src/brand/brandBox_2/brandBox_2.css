@@ -1,13 +1,17 @@
 /*brandBox_2.css*/
 
 #brand_wrap {width: 100%; height: auto;}
+#brandBox_2 > h3 > button {width:170px; position:relative;}
+#brandBox_2 > h3 > button:before {content:" "; display: block; 
+  position:absolute; left:0; top:50%; margin-top: -4px;
+  width:1px; height:8px; background-color: #666;}
 
-.brandBox_2 {box-sizing:border-box; width: 100%; height: auto; background-color:#ffa; }
+.brandBox_2 {box-sizing:border-box; width: 100%; height: auto; }
+
 .brandBox_2 > ul > li {color:#666;}
 .brandBox_2 > ul > li.active {color:#0080e6;}
 
-.brandBox_2 > ul > li:after {content:" "; display: block; width: 1px; height:10px; 
-border-right:1px solid #aaa;}
+.brandBox_2 > ul > li:after {content:" "; display: block; width: 1px; height:10px; border-right:1px solid #aaa;}
 
 .brandBox_2 > ul > li:last-child:after {display: none;}
 
@@ -16,7 +20,13 @@ border-right:1px solid #aaa;}
 .brand_2 > dt {height: auto; color:#ff6000;}
 .brand_2 > dd {height: auto; color:#666;}
 
-.putto_img {background-image:url("../../../../img/brandBox/brand_img/putto_2.jpg");
+.putto_img {background-image:url("../../../../img/brandBox/brand_img/putto_img_2.jpg"); background-size:100%;
 background-repeat:no-repeat; background-position:center;}
-.design_skin_img {background-image:url("../../../../.../img/brandBox/brand_img/putto_2.jpg");
+.design_skin_img {background-image:url("../../../../img/brandBox/brand_img/design_skin_3.jpg");
 background-repeat:no-repeat; background-size:100%; background-position:center;}
+
+
+/*logo img*/
+
+.logo_9 {background-image:url("../../../../img/brandBox/putto_logo.jpg"); background-repeat:no-repeat; background-size:contain; background-position:center;}
+.logo_10 {background-image:url("../../../../img/brandBox/design_logo.png"); background-repeat:no-repeat; background-size:contain; background-position:center;}

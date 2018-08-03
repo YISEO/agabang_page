@@ -1,5 +1,48 @@
 @media screen and (min-width:769px) and (max-width:1366px) {
 
 	/*공통*/
+
+  #brand_wrap {position:relative; padding-top:200px;}
+
+  .brand_tab {width:80%; height:40px; border-bottom:1px solid #0080e6; margin: auto; margin-top:5%;}
+  .brand_tab > li {float:left; width:180px; height:40px; text-align:center; line-height:40px; margin-right: 4%;}
+  .brand_tab > li:first-child {margin-left:4%; width: 220px;}
+
+  .brand_tab > li > a {color:#666;}
+
+  .brand_tab > li.select {background-color:#0080e6;
+  border-top-right-radius:1rem; border-top-left-radius:1rem;}
+  .brand_tab > li.select > a {color:#fff; font-size: 17px;}
+
+  .brandBox > h3 {display: none;}
+
 	
+  .brandBox {width:80.527086vw;/*1100px;*/ height: auto; margin: auto; box-sizing:border-box; padding-top: 2rem;}
+
+
+  #brandBox_1 > ul {box-sizing:border-box; padding:1rem 2rem;
+   width:80%; height:auto; margin: auto; margin-top: 2rem; font-size:17px;}
+  #brandBox_1 > ul > li {position:relative; float: left; text-align:center; width: 150px; height:30px; line-height:30px;}
+  #brandBox_1 > ul > li:after {margin-right: 0;}
+  /*#brandBox_1 > ul > li:nth-child(6) {margin-left: 40%;}*/
+
+  /*brand_content_1*/
+
+  .brand_content_1 {width:80%; height: auto; background-color:#fff; margin: auto; margin-top: 4rem; overflow: hidden;}
+
+  .brand_img_1 {width:800%; height:350px; background-color:#acc; margin: auto;}
+  .brand_img_1 > li {width: 12.5%; height: 100%; float: left;}
+  
+  .logo_wrap {width: 310px; height: 80px; margin: auto; margin-top:8%; overflow: hidden;}
+  .logo_img {width: 800%; height: 100%;}
+  .logo_img > li {width: 12.5%; height: 100%; float: left;}
+
+
+  /*brand_area_1*/
+
+  .brand_area_1 {width: 800%; height: auto;}
+  .brand_1 {width: 12.5%; height:auto; float: left; text-align:center; }
+  .brand_1 > dt {font-size:22px; margin-top:8%;}
+  .brand_1 > dd {width:80%;  height: auto; font-size:18px; margin: auto; margin-top:10%;}
+
 }

@@ -9,18 +9,18 @@ html, body {margin:0; padding: 0; height:100%;}
 
 h1,h2,h3,h4,h5,h6,
 p,pre,div,ul,ol,li,dl,dt,dd,img,
-form, fieldset, legend, input, label, textarea, select
+form, fieldset, legend, input, label, textarea, select, button
 {margin:0; padding:0; border:0; outline:0;
  font-family: 'Jeju Gothic', sans-serif;}
 
 
 table, thead,tbody,tfoot,caption, tr, th, td
-{margin: 0; padding: 0; border: 1px solid #777; border-spacing:0;
- border-collapse: collapse;}
-thead {background-color:#fcc;}
+{margin: 0; padding: 0; /*border: 1px solid #777; */
+border-spacing:0; border-collapse: collapse;}
+/*thead {background-color:#fcc;}
 tbody {background-color:#dfdfdf;}
 tfoot {background-color:#faa;}
-
+*/
 
 ul,ol,li{list-style:none;}
 

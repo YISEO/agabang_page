@@ -8,9 +8,12 @@
   .gnb_wrap {width:100%; height: auto; padding-top: 30px;}
   .gnb_btn {display: none;}
 
-  .gnb {width:100%; height:40px;}
-  .gnb > ul {width:100%; height:100%;}
-  .gnb > ul > li {width: 13%; height: 100%; float: left; margin-right:2%; text-align: center; line-height:40px;}
+  .gnb {width:100%; height:auto; position: relative;}
+  .gnb_a {display: none; width: 110%; margin-left: -5%; height: 200px; background-color:rgba(189,234,254,0.6); position: absolute; top: 40px; left: 0; z-index: -100;
+    /*box-shadow:0.4rem 0 0.7rem rgba(0,0,0,0.3) inset;*/}
+
+  .gnb > ul {width:100%; height:auto;}
+  .gnb > ul > li {width: 13%; height: auto; float: left; margin-right:2%; text-align: center; line-height:40px;}
 
   .gnb > ul > li:first-child{margin-left:3%;}
   .gnb > ul > li:last-child{margin-right: 0;}

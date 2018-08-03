@@ -1,5 +1,14 @@
 @media screen and (max-width:480px) {
 
-#historyBox {display: none;}
+  #historyBox {width: 100%; height: auto; box-sizing:border-box; padding: 1rem;}
+  #historyBox h3 { width: 80px; height: 30px; background-color:#0080e6; line-height:30px; color:#fff; font-size:18px; 
+    font-weight:normal; text-align: center; margin-bottom:2%;}
+
+  .history_content {width:100%; height: auto; box-sizing:border-box;
+    padding-top:2rem; padding-left:1rem;}
+  .history_content > dl {width: 100%; height:auto; margin-bottom:8%; }
+  .history_content > dl > dt {font-size:20px; color:#ff6000; width:50px; height:auto; margin-bottom: 5%;}
+  .history_content > dl > dd {width:100%; height:auto; color:#666; margin-bottom: 3%;}
+
 
 }

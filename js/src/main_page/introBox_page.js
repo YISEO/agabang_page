@@ -2,8 +2,7 @@
 
 (function($){
 
-  var indicator = $('.indicator');
-  var indiLi    = indicator.children('li');
+
   var intro  = $('.intro_li');
   var introLi = intro.children('li');
 

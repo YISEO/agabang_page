@@ -1,9 +1,11 @@
 @media screen and (min-width:769px) and (max-width:1366px) {
-
+	
+	#event_wrap {padding-top: 300px;}
 	
 	.event_tab {width:80%; height:40px; border-bottom:1px solid #0080e6; margin: auto;}
-	.event_tab > li {float:left; width:150px; height:40px; text-align:center; 
-		line-height:40px; margin-right: 4%;}
+	.event_tab > li {float:left; width:170px; height:40px; text-align:center; font-size:18px; line-height:40px; margin-right: 4%;}
+	.event_tab > li:first-child {margin-left: 5%;}
+
 	.event_tab > li > a {color:#666;}
 
 	.event_tab > li.select {background-color:#0080e6;
@@ -12,22 +14,51 @@
 	
 	/*진행중인 이벤트*/
 
-	#present_event{width:80%; height: auto; background-color:#ffb; margin: auto;}
-	.main_event_img {width: 100%; height: 360px; background-color:#fff; margin-top:5%;}
+	#present_event{width:80%; height: auto; margin: auto;}
+	.main_event_img {width: 100%; height:39.531479vw; /*540/1366*100*/ margin-top:10%;}
 
-	.our_brand {margin-top:40px; margin-bottom: 40px;}
+	/*.our_brand {margin-top:40px; margin-bottom: 40px;}*/
+	.our_brand {display: none;}
 
 	.event_list {width: 100%; height:825px; background-color:#fff; padding-top:7%;}
-	.event_list > li {width: 32%; height:48%; background-color:#acf; float: left; 
-		margin-right: 2%; margin-bottom: 3%;}
+	.event_list > li {width:30%; height:40%; float: left; 
+		margin-right:5%; margin-bottom: 5%;}
 	.event_list > li:nth-child(3n) {margin-right: 0;}
 	.event_list > li:nth-child(4),
 	.event_list > li:nth-child(5),
 	.event_list > li:nth-child(6){margin-bottom:0;}
 
-	.event_img {width: 100%; height: 70%; background-color:#fa5;}
-	.brand_name {width: 100%; height: 6%; text-align:center; line-height:23px;
-		margin-top: 3%;}
-	.brand_ex {width: 100%; height:18%; text-align:center; box-sizing:border-box;
-		padding-top:5%;}
+	.event_img {width: 100%; height: 70%;}
+
+	.event_1 {background-size:contain;}
+	.event_2 {background-size:contain;}
+	.event_3 {background-size:contain;}
+	.event_4 {background-size:contain;}
+	.event_5 {background-size:contain;}
+	.event_6 {background-size:contain;}
+
+	.brand_name {width: 100%; height: 6%; text-align:center; line-height:23px; margin-top:10%; font-size:17px; color:#ff6000;}
+	.brand_ex {width: 100%; height:18%; text-align:center; box-sizing:border-box; padding-top:5%; color:#666;}
+
+
+		/*form*/
+
+	#present_event > form {width:700px; height:30px; margin: auto; margin-bottom:10%;}
+	
+	.search_field{width:100%; height:100%;}
+
+	.search_list {width:50px; height:100%; float: left; margin-right: 5%;}
+	#searchList {width:50px; height: 100%; text-align:center;
+		font-size:16px;}
+
+
+	.search_text {width:500px; height: 100%; float: left; margin-right: 5%;}
+	.search_text > input {width: 100%; height: 100%;}
+
+	.search_btn {width:80px; height: 100%; float: left;}
+	.search {width: 100%; height: 100%; background-color:#fff;
+		color:#666; border:1px solid #000; font-size:16px;
+		text-transform:uppercase;}
+
+
 }

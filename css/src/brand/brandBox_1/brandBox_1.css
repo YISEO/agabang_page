@@ -1,11 +1,18 @@
 /*brandBox_1.css*/
 
-#brand_wrap {width: 100%; height: auto; word-break:keep-all;}
+#brand_wrap {width:100%; height:auto; position:relative; word-break:keep-all;
+box-sizing:border-box;}
 
 .brandBox {box-sizing:border-box; width: 100%; height: auto; }
-.brandBox > ul > li {color:#666; position:relative;}
-.brandBox > ul > li.active {color:#0080e6;}
-.brandBox > h3 {font-weight:normal;}
+.brandBox > ul > li {position:relative;}
+.brandBox > ul > li.active > a {display: block; width: 100%; height: 100%; color:#0080e6;}
+.brandBox > ul > li > a {display: block; width: 100%; height: 100%; color:#666;}
+
+.brandBox > h3 {width:100%; height:40px; border-bottom:1px solid #0080e6; font-weight: normal;}
+.brandBox > h3 > button {width: 250px; height: 100%; text-align:center; line-height:40px; font-size:18px; margin-left:5%; color:#666;}
+
+
+.brandBox > h3 > button.tab {background-color:#0080e6; color:#fff;  border-top-right-radius:1rem; border-top-left-radius:1rem;}
 
 .brandBox > ul > li:after {content:" "; display: block; width: 1px; height:8px; 
 border-right:1px solid #aaa; position:absolute; right:0; margin-right:-10px; 
@@ -13,31 +20,50 @@ top:50%; margin-top:-8px;}
 
 .brandBox > ul > li:last-child:after {display: none;}
 
+
 .brand_1 {box-sizing:border-box;}
 .brand_1 > dt {height: auto; color:#ff6000;}
 .brand_1 > dd {height: auto; color:#666;}
 
+.brand_btn {display: block; width:140px; height: 34px; background-color:#0080e6; color:#fff; border-radius:2rem; margin: auto; margin-top: 5%; margin-bottom: 5%;}
+.brand_btn > a {color:#fff; font-size:15px;}
+
 /*brand_img*/
-.agabang_img {background-image:url("../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
 
-.dearbaby_img {background-image:url(."../../../../img/brandBox/brand_img/dear_baby.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.brand_img > li {background-repeat:no-repeat;
+background-position:center; background-size:100%;}
 
-.gallery_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.agabang_img {background-image:url("../../../../img/brandBox/brand_img/agabang_img.jpg");}
 
-.ettoi_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.dearbaby_img {background-image:url("../../../../img/brandBox/brand_img/dear_baby.jpg");}
 
-.tinyplex_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.gallery_img {background-image:url("../../../../img/brandBox/brand_img/gallery_img.jpg");}
 
-.petit_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.ettoi_img {background-image:url("../../../../img/brandBox/brand_img/ettoi_img.jpg");}
 
-.nextmom_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.tinyplex_img {background-image:url("../../../../img/brandBox/brand_img/tinyplex.jpg");}
 
-.eyaeyao_img {background-image:url(."../../../../img/brandBox/brand_img/agabang_img.jpg");
-background-repeat:no-repeat; background-size:100%; background-position: center;}
+.petit_img {background-image:url("../../../../img/brandBox/brand_img/petit_2.jpg"); background-position:center;}
+
+.nextmom_img {background-image:url("../../../../img/brandBox/brand_img/nextmom.jpg"); background-size:50%;}
+
+.eyaeyao_img {background-image:url("../../../../img/brandBox/brand_img/eyaeyao.jpg");}
+
+
+/*logo image*/
+
+.logo_img > li {background-position:center; background-repeat:no-repeat; background-size: contain;}
+.logo_img_1 > li > a {display: block; width: 100%; height: 100%;}
+
+.logo_1 {background-image:url("../../../../img/brandBox/agabang_logo.jpg"); background-size:auto 70%;}
+.logo_2 {background-image:url("../../../../img/brandBox/dearbaby_logo.png");}
+.logo_3 {background-image:url("../../../../img/brandBox/agallery_logo.png");}
+.logo_4 {background-image:url("../../../../img/brandBox/ettoi_logo.jpg");}
+.logo_5 {background-image:url("../../../../img/brandBox/tiny_logo.jpg");}
+.logo_6 {background-image:url("../../../../img/brandBox/petit_logo.jpg");}
+.logo_7 {background-image:url("../../../../img/brandBox/nextmom_logo.jpg");}
+.logo_8 {background-image:url("../../../../img/brandBox/eya_logo.jpg");}
+
+
+.b_tab_text > article {width:100%; height:auto; display:none;}
+.b_tab_text > article.select {display: block;}

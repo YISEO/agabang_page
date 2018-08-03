@@ -27,6 +27,9 @@
 <body>
   <!-- design -->
     
+    <div id="about_wrap">
+
+    <div class="headBox"></div> 
     
     <article id="ceoBox">
     
@@ -40,7 +43,7 @@
     </ul>
     </div>
     
-    <div class="ceo_area clearfix">
+    <div class="ceo_area area clearfix">
       <h3>CEO 인사말</h3>
       <div class="ceo_img"><span class="hidden">ceo 이미지</span></div>
 
@@ -56,7 +59,7 @@
       </dl>
     </div>
 
-    <div class="intro_area clearfix">
+    <div class="intro_area area clearfix">
 
       <h3>아가방앤컴퍼니 소개</h3>
 
@@ -147,8 +150,8 @@
     <article id="visionBox">
       
 
+      <div class="ideology_area area clearfix">
       <h3>이념</h3>
-      <div class="ideology_area clearfix">
         <dl class="ideology ideology_1">
           <div class="ideology_img img_1">
             <span class="hidden">li_1 img</span></div>
@@ -175,9 +178,12 @@
       </div>
 
 
-        <h3>비전</h3>
-        <div class="vision_area">
-          <div class="vision_img"></div>
+        <div class="vision_area area">
+
+          <h3>비전</h3>
+          <div class="vision_img"><span class="hidden">
+            vision 이미지
+          </span></div>
 
         <ul class="vision_content">
         <li>- VISION : 유아 사업 역량을 기반으로 한 100년 지속 글로벌 성장기업</li>
@@ -192,8 +198,11 @@
 
     <article id="historyBox">
       
-      <h3>연혁</h3>
-      <div class="history_img"></div>
+
+      <div class="area">
+        <h3>연혁</h3>
+        <div class="history_img"></div>
+      </div>
 
       <div class="history_content clearfix">
         
@@ -243,24 +252,29 @@
 
     <article id="ciBox">
       
-      <h3>CI</h3>
-      <div class="ci_img"></div>
-      <dl>
+      <div class="area">
+        <h3>CI</h3>
+        <div class="ci_img"></div>
+
+      <dl class="ci_content">
         <dt>아가방앤컴퍼니의 의미</dt>
         <dd>2007년 3월 주식회사 ‘아가방’이라는 기업명을 ‘아가방앤컴퍼니’로 변경했습니다. <br />
         아가방, 에뜨와, 디어베이비, 이야이야오, 퓨토, 넥스트맘 등 다양한 하위브랜드간 유기적 조화를 이뤄,
         브랜드 밸류 제고와 함께 패션홀딩컴퍼니로서 기업가치도 높이겠다는 비전을 담았습니다. <br />
         로고는 기존 유아동 중심의 브랜드에서 토들러 영역으로의 브랜드 확장성 의미와 함께 패션홀딩컴퍼니 추진의지를 형상화하고 있습니다.</dd>
       </dl>
+      </div>
 
     </article>
 
 
     <article id="mapBox">
       
-      <h3>오시는길</h3>
+      <div class="area">
+        <h3>오시는길</h3>
+      </div>
 
-      <address>
+      <address class="area">
       <div class="map_img"></div>
         <dl class="c_address">
           <dt>아가방앤컴퍼니 본사</dt>
@@ -271,12 +285,14 @@
       </address>
 
     </article>
-
+    
+    <div class="footBox"></div>
   </div>
 
   <!-- javascript -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/load.js"></script>
   <script src="../js/src/about_page/about_page.js"></script>
 </body>
 </html>

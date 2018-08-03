@@ -6,7 +6,7 @@ var gnbBtn = $('.gnb_btn');
 var gnb = $('.gnb');
 var gnbLi = gnb.children('ul').children('li').children('a');
 var gnbMenu = $('.gnb_menu');
-var timed = 500;
+
 var winW = $(window).outerWidth();
 
 

@@ -1,23 +1,33 @@
 @media screen and (min-width:481px) and (max-width:768px) {
 
 	/*공통*/
-	#brandBox_1 {padding:3rem 4rem; overflow:hidden;}
-	.brandBox > h3 {font-size:20px; width:auto; height:auto; }
+
+	.brand_tab {display: none;}
+
+
+	#brandBox_1 {padding:3rem; padding-top:120px; overflow:hidden;}
+	#brandBox_1 h3 {font-size:20px; width:270px; height:30px; 
+	background-color:#0080e6; color:#fff; text-align:center;
+	line-height:30px; font-weight: normal;}
+
 	.brandBox > ul {margin-top: 2rem; width: 90%; height: auto;}
 	.brandBox > ul > li {float:left; width: auto; height: 24px; margin-right:5%;}
 
-	.brand_content_1 {width: 100%; height:auto; background-color:#fac; margin-top:2rem; /*border: 1px solid #fff;*/ overflow: hidden;}
+	.brand_content_1 {width: 100%; height:auto; margin-top:2rem; /*border: 1px solid #fff;*/ overflow: hidden;}
 
-	.brand_img {width: 800%; height:220px;}
-	.brand_img > li {width:12.5%; height:100%; float:left;}
+	.brand_img_1 {width: 800%; height:220px; margin: auto;}
+	.brand_img_1 > li {width:12.5%; height:100%; float:left;}
 
 
 	.brand_area_1 {width:800%; height:auto;}
 
-	.brand_1 {width:12.5%; height:auto; float:left;}
+	.brand_1 {width:12.5%; height:auto; float:left; margin-top: 20px;}
 	.brand_1 > dt {width: 100%; margin-top: 20px; font-size: 20px;}
-	.brand_1 > dd {width: 100%; margin-top: 20px; font-size: 18px;}
+	.brand_1 > dd {width: 100%; margin-top: 30px; font-size: 18px;}
 	.brand_1 > dd:last-of-type {display: none;}
-
+	
+	.logo_wrap {display: none;}
 	.brand_btn {display: none;}
+
+	.b_tab_text > article {display: block;}
 }

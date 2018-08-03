@@ -1,6 +1,6 @@
 @media screen and (max-width:480px) {
 
-#mapBox {height: auto; box-sizing:border-box; padding: 1rem;}
+#mapBox {display: none;/*height: auto; box-sizing:border-box; padding: 1rem;*/}
 #mapBox > h3 {width: 90px; height: 30px; background-color:#0080e6;
 text-align: center; line-height:30px; color:#fff; font-size:18px;
 font-weight:normal; margin: auto;}

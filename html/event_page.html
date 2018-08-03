@@ -29,21 +29,21 @@
   <!-- design -->
 
   <div id="event_wrap">
+    
+    <div class="headBox"></div> 
 
     <h3 class="hidden">진행중인 이벤트</h3>
-    <h3 class="hidden">종료된 이벤트</h3>
     <h3 class="hidden">당첨자발표</h3>
 
     <ul class="event_tab">
       <li class="select"><a href="#">진행중인 이벤트</a></li>
-      <li><a href="#">종료된 이벤트</a></li>
       <li><a href="#">당첨자 발표</a></li>
     </ul>
     
 
-    <div class="tab_text">
+    <div class="tab_text clearfix">
 
-      <article id="present_event" class="select">
+      <article id="present_event" class="select clearfix">
       
         <div class="main_event_img"></div>
       
@@ -68,42 +68,18 @@
           
         </div>
         
-        <ul class="event_list">
+        <ul class="event_list clearfix">
           <li>
             <a href="#">
-              <div class="event_img"></div>
-              <p class="brand_name">디자인 스킨</p>
-              <p class="brand_ex">한번도 본 적 없는 띵템특가 이벤트<br />
-                 기간 : 2018년 06월 15일 ~ 2018년 07월 11일</p>
+              <div class="event_img event_1"></div>
+              <p class="brand_name">넥스트맘</p>
+              <p class="brand_ex">퓨토와 함께 진행하는 샘플 신청 EVENT<br />
+                 기간 : 2018년 07월 05일 ~ 2018년 07월 20일</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <div class="event_img"></div>
-              <p class="brand_name">디자인 스킨</p>
-              <p class="brand_ex">딱 한달간 진행하는 디자인 스킨몰 특가 이벤트<br />
-                 기간 : 2018년 07월 01일 ~ 2018년 07월 31일</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="event_img"></div>
-              <p class="brand_name">퓨토</p>
-              <p class="brand_ex">신규 회원 가입시 세제 SET 증정 이벤트<br />
-                 기간 : 2018년 07월 10일 ~ 2018년 07월 17일</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="event_img"></div>
-              <p class="brand_name">디자인 스킨</p>
-              <p class="brand_ex">구매하신 상품에대한 상품평 쓰기 EVENT<br />
-                 기간 : 2018년 06월 25일 ~ 2018년 07월 10일</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <div class="event_img"></div>
+              <div class="event_img event_2"></div>
               <p class="brand_name">디자인 스킨</p>
               <p class="brand_ex">웰컴 마일리지 EVENT<br />
                  기간 : 2018년 07월 01일 ~ 2018년 07월 31일</p>
@@ -111,10 +87,32 @@
           </li>
           <li>
             <a href="#">
-              <div class="event_img"></div>
-              <p class="brand_name">넥스트맘</p>
-              <p class="brand_ex">퓨토와 함께 진행하는 샘플 신청 EVENT<br />
-                 기간 : 2018년 07월 05일 ~ 2018년 07월 20일</p>
+              <div class="event_img event_3"></div>
+              <p class="brand_name">퓨토</p>
+              <p class="brand_ex">신규 회원 가입시 세제 SET 증정 이벤트<br />
+                 기간 : 2018년 07월 10일 ~ 2018년 07월 17일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img event_4"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">구매하신 상품에대한 상품평 쓰기 EVENT<br />
+                 기간 : 2018년 06월 25일 ~ 2018년 07월 10일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img event_5"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">딱 한달간 진행하는 디자인 스킨몰 특가 이벤트<br />기간 : 2018년 07월 01일 ~ 2018년 07월 31일</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="event_img event_6"></div>
+              <p class="brand_name">디자인 스킨</p>
+              <p class="brand_ex">한번도 본 적 없는 띵템특가 이벤트<br />기간 : 2018년 06월 15일 ~ 2018년 07월 11일</p>
             </a>
           </li>        
         </ul>
@@ -132,13 +130,12 @@
               </select>
             </div>
       
-            <div class="seach_text">
+            <div class="search_text">
               <input type="text" name="searchText" id="searchText" />
             </div>
       
             <div class="search_btn">
-              <button type="submit" name="searchBtn" id="searchBtn" value=""
-              placeholder="search" />
+              <button type="button" class="search">search</button>
             </div>
       
           </fieldset>
@@ -147,20 +144,20 @@
       </article>
 
       <article id="end_event">
-        <h2> tab test <h2>
       </article>
       <article id="win_event">
-        <h2> tab test_ing </h2>
       </article>
 
     </div>
 
-
   </div>
+
+  <div class="footBox"></div>
 
   <!-- javascript -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/load.js"></script>
   <script src="../js/src/event_page/event_page.js"></script>
 
 </body>

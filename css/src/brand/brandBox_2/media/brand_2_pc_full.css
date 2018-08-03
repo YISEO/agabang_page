@@ -1,0 +1,36 @@
+@media screen and (min-width:1367px) {
+
+
+  #brandBox_2 {width:1100px; height: auto; margin: auto; box-sizing:border-box; padding-top: 2rem;}
+
+  #brandBox_2 > h3 {display: none;}
+
+  #brandBox_2 > ul {box-sizing:border-box; padding:1rem 2rem;
+   width:80%; height:auto; margin: auto; margin-top: 2rem; font-size:17px;}
+  #brandBox_2 > ul > li {position:relative; float: left; text-align:center; width: 150px; height:30px; line-height:30px; font-size: 18px;}
+  #brandBox_2 > ul > li:after {margin-right: 0;}
+ 
+
+  /*brand_content_1*/
+
+  .brand_content_2 {width:80%; height: auto; background-color:#fff; margin: auto; margin-top: 4rem; overflow: hidden;}
+
+  .brand_img_2 {width:200%; height:350px; margin: auto;}
+  .brand_img_2 > li {width:50%; height: 100%; float: left;}
+  
+  .logo_wrap {width: 310px; height: 80px; margin: auto; margin-top:8%; overflow: hidden;}
+  .logo_img {width:200%; height: 100%;}
+  .logo_img > li {width:50%; height: 100%; float: left;}
+
+
+  /*brand_area_1*/
+
+  .brand_area_2 {width:200%; height: auto;}
+  .brand_2 {width:50%; height:auto; float: left; text-align:center; }
+  .brand_2 > dt {font-size:22px; margin-top:8%;}
+  .brand_2 > dd {width:60%; height: auto; font-size:18px; margin: auto; margin-top:10%;}
+
+  .brand_btn {display: block; width:140px; height: 34px; background-color:#0080e6; color:#fff; border-radius:2rem; margin: auto; margin-top: 8%; margin-bottom: 8%;}
+  .brand_btn > a {color:#fff; font-size:15px;}
+
+}

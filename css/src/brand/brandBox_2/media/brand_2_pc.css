@@ -1,0 +1,28 @@
+  @media screen and (min-width:769px) and (max-width:1366px) {
+
+  #brandBox_2 > ul {box-sizing:border-box; padding:1rem 2rem;
+   width:80%; height:auto; margin: auto; margin-top: 2rem; font-size:17px;}
+  #brandBox_2 > ul > li {position:relative; float: left; text-align:center; width: 150px; height:30px; line-height:30px;}
+  #brandBox_2 > ul > li:after {margin-right: 0;}
+
+
+  /*brand_content_2*/
+
+  .brand_content_2 {width:80%; height: auto; background-color:#fff; margin: auto; margin-top: 4rem; overflow: hidden;}
+
+  .brand_img_2 {width:200%; height:350px; margin: auto;}
+  .brand_img_2 > li {width:50%; height: 100%; float: left;}
+  
+  .logo_wrap {width: 310px; height: 80px; margin: auto; margin-top:8%; overflow: hidden;}
+  .logo_img {width:200%; height: 100%;}
+  .logo_img > li {width:50%; height: 100%; float: left;}
+
+
+  /*brand_area_2*/
+
+  .brand_area_2 {width: 200%; height: auto;}
+  .brand_2 {width:50%; height:auto; float: left; text-align:center; }
+  .brand_2 > dt {font-size:22px; margin-top:8%;}
+  .brand_2 > dd {width:80%; height: auto; font-size:18px; margin: auto; margin-top:10%;}
+
+}

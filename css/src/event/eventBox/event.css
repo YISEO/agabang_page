@@ -1,7 +1,6 @@
 /*event.css*/
 
-#event_wrap {box-sizing:border-box; padding:1rem;
-	width: 100%; height: auto; background-color:#fac; word-break:keep-all;}
+#event_wrap {box-sizing:border-box; width: 100%; height: auto;word-break:keep-all;}
 
 .event_tab > li.select {background-color:#0080e6;}
 .event_tab > li.select > a {color:#fff;}
@@ -10,3 +9,15 @@
 .tab_text {width: 100%; height: auto;}
 .tab_text > article {width: 100%; height: auto; display: none;}
 .tab_text > article.select {display: block;}
+
+
+.main_event_img {background-repeat:no-repeat; background-position:bottom; background-color:#f0f0f0; background-size:100%; background-image:url("../../../../img/eventBox/main_event.png");}
+.event_img {background-repeat:no-repeat; background-position:center;}
+
+
+.event_1 {background-image:url("../../../../img/eventBox/event_1.png"); background-position:center;}
+.event_2 {background-image:url("../../../../img/eventBox/event_2.png"); background-position:center;}
+.event_3 {background-image:url("../../../../img/eventBox/event_3.png"); background-position:center;}
+.event_4 {background-image:url("../../../../img/eventBox/event_4.png"); background-position:center;}
+.event_5 {background-image:url("../../../../img/eventBox/event_5.png"); background-position:center;}
+.event_6 {background-image:url("../../../../img/eventBox/event_6.png"); background-position:center;}
