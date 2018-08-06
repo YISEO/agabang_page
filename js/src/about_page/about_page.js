@@ -17,8 +17,10 @@
   }
 
   // console.log( aboutTop);
+
 // -------------------------------------------
-// 스크롤시 당산 메뉴 .active 설정되게 
+
+// 스크롤시 해당 메뉴 .active 설정되게 
   $(window).on('scroll',function(){
     var nowTop = $(window).scrollTop();
     var j = 0, k;
@@ -115,4 +117,5 @@ $(window).on('scroll', function(){
 
 
 */
+
 })(jQuery);

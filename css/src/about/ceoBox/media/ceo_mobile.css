@@ -25,8 +25,7 @@
 
   /*intro_area*/
 
-  .intro_area {width: 100%; height: auto; box-sizing: border-box; padding:1rem;
-  /*  opacity:0; transform:translate(0, 300px); transition:all 400ms linear 600ms;*/}
+  .intro_area {width: 100%; height: auto; box-sizing: border-box; padding:1rem;}
 
 
   .intro_li {width: 100%; height: auto;}
@@ -44,4 +43,5 @@
   .love_img {background-size:150%;}
 
   .intro_li_2 {display: none;}
+
 }

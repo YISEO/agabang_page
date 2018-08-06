@@ -1,3 +1,4 @@
+
 @media screen and (min-width:1366px) {
 
   #headBox {padding-top:30px; width: 100%; height:auto;}
@@ -40,7 +41,8 @@
   .language {width: 80px; height: 100%; margin-right:30px; position:relative;}
   .language:after{content:" "; display: block; position:absolute; top:50%; margin-top:-7px; right:0; width: 14px; height: 14px; background-image:url("../../../../../img/triangle.svg"); background-repeat: no-repeat;background-size: 100%; cursor: pointer;}
 
-  .join_us {width: 70px; height: 100%;margin-right:30px;}
+  .join_us {width: 70px; height: 100%; margin-right:30px;}
   .shopping_mall {float: left;width: 90px; height: 100%;}
+
 
 }

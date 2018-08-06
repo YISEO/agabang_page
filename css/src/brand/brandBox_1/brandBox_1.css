@@ -34,19 +34,12 @@ top:50%; margin-top:-8px;}
 background-position:center; background-size:100%;}
 
 .agabang_img {background-image:url("../../../../img/brandBox/brand_img/agabang_img.jpg");}
-
 .dearbaby_img {background-image:url("../../../../img/brandBox/brand_img/dear_baby.jpg");}
-
 .gallery_img {background-image:url("../../../../img/brandBox/brand_img/gallery_img.jpg");}
-
 .ettoi_img {background-image:url("../../../../img/brandBox/brand_img/ettoi_img.jpg");}
-
 .tinyplex_img {background-image:url("../../../../img/brandBox/brand_img/tinyplex.jpg");}
-
 .petit_img {background-image:url("../../../../img/brandBox/brand_img/petit_2.jpg"); background-position:center;}
-
 .nextmom_img {background-image:url("../../../../img/brandBox/brand_img/nextmom.jpg"); background-size:50%;}
-
 .eyaeyao_img {background-image:url("../../../../img/brandBox/brand_img/eyaeyao.jpg");}
 
 
@@ -66,4 +59,3 @@ background-position:center; background-size:100%;}
 
 
 .b_tab_text > article {width:100%; height:auto; display:none;}
-.b_tab_text > article.select {display: block;}

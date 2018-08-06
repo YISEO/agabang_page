@@ -5,3 +5,4 @@
       var footBox = $('.footBox')
         footBox.load('./all/footBox.html');
     })(jQuery);
+

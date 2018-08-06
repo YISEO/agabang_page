@@ -1,4 +1,5 @@
 /*ceo_pc_full.css*/
+
 @media screen and (min-width:1367px) {
 
 
@@ -64,4 +65,4 @@ box-sizing:border-box; float: left;}
 .intro_li_2 > dl > dd {width:100%; height: 65%; margin: auto; box-sizing:border-box; padding:1rem; color:#444;}
 
 
-} 
+}

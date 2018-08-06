@@ -4,3 +4,4 @@
 
 #historyBox > .area {opacity:0; transform:translate(0, 300px); transition:all 500ms linear;}
 #historyBox > div.ani {opacity:1; transform:translate(0);}
+
