@@ -26,3 +26,14 @@ background-repeat:no-repeat; background-position:center;}
 
 
 .intro > dd {color:#666;}
+
+
+.intro_li_2 > dl:nth-of-type(1),
+.intro_li_2 > dl:nth-of-type(2),
+.intro_li_2 > dl:nth-of-type(3) {border-bottom:0;}
+
+
+.intro_li_2 > dl:nth-of-type(1),
+.intro_li_2 > dl:nth-of-type(2),
+.intro_li_2 > dl:nth-of-type(4),
+.intro_li_2 > dl:nth-of-type(5) {border-right: 0;}

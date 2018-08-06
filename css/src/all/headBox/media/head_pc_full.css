@@ -6,21 +6,21 @@
   #headBox > h1 {margin: auto; width: 300px; height: 80px;}
   #headBox > h1 > a {display: block; width: 100%; height: 100%;}
 
-  .gnb_wrap {width:100%; height: auto; padding-top: 30px;}
+  .gnb_wrap {width:100%; height:60px; margin-top:10px; border-top:1px solid #ddd; border-bottom:1px solid #0080e6;}
   .gnb_btn {display: none;}
 
-  .gnb {width:100%; height:auto; position: relative;}
-  .gnb_a {display: none; width: 110%; margin-left: -5%; height: 200px; background-color:rgba(189,234,254,0.6); position: absolute; top: 40px; left: 0; z-index: -100;
-    /*box-shadow:0.4rem 0 0.7rem rgba(0,0,0,0.3) inset;*/}
+  .gnb {width:65%; height:auto; position: relative; margin: auto;}
+  .gnb_a {display: none; width: 110%; margin-left:-5%; height: 200px; background-color:rgba(255,255,255,0.6); position: absolute; top: 60px; left: 0; z-index: -100;}
 
   .gnb > ul {width:100%; height:auto;}
-  .gnb > ul > li {width: 13%; height: auto; float: left; margin-right:2%; text-align: center; line-height:40px;}
+  .gnb > ul > li {width:13%; height: auto; float: left; margin-right:4%; text-align: center; line-height:60px;}
+  /*.gnb > ul > li:first-child {width: 12%;}*/
 
-  .gnb > ul > li:first-child{margin-left:3%;}
   .gnb > ul > li:last-child{margin-right: 0;}
 
 
-  .gnb > ul > li > a {display: block; width: 100%; height: 100%;font-size:22px;}
+  .gnb > ul > li > a {display: block; width: 100%; height: 100%;
+    font-size:18px; color:#444;}
   .gnb > ul > li > a:focus,
   .gnb > ul > li > a:hover {color:#0080e6;}
   
@@ -29,20 +29,18 @@
   .gnb_menu > li {width:100%; height: 40px; margin-bottom: 20px;}
   .gnb_menu > li:last-child {margin-bottom: 0;}
 
-  .gnb_menu > li > a {display: block; width: 100%; height: 100%;}
+  .gnb_menu > li > a {display: block; width: 100%; height: 100%; color:#666;}
 
   .gnb_menu > li > a:focus,
   .gnb_menu > li > a:hover{text-decoration:underline; color:#000;}
 
   /*unb*/
 
-  .unb{width:auto; height: 30px; top:20px; text-align:center; line-height:30px;}
+  .unb{width:auto; height:30px; position:absolute; bottom:8%; right:10px;}
 
-  .language {width: 80px; height: 100%; margin-right:30px; position:relative;}
-  .language:after{content:" "; display: block; position:absolute; top:50%; margin-top:-7px; right:0; width: 14px; height: 14px; background-image:url("../../../../../img/triangle.svg"); background-repeat: no-repeat;background-size: 100%; cursor: pointer;}
-
-  .join_us {width: 70px; height: 100%; margin-right:30px;}
-  .shopping_mall {float: left;width: 90px; height: 100%;}
+  .language {float:left; width:30px; height:100%; margin-right:20px;}
+  .join_us {float:left; width:30px; height:100%; margin-right:20px;}
+  .shopping_mall {float:left; width:30px; height:100%;}
 
 
 }
