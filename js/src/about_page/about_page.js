@@ -61,7 +61,7 @@
     areaTop[i]  = area.eq(i).offset().top;
   }
   // console.log(area.length);
-  console.log(areaTop);
+  // console.log(areaTop);
   area.eq(0).addClass('ani');
   $(window).on('scroll',function(){
     var nowTop = $(window).scrollTop();
@@ -70,7 +70,7 @@
      (l >= areaLeng) ? m = areaLeng : m= l;
     if(nowTop >= areaTop[l]-900){
        area.eq(m).addClass('ani');
-        console.log(m);
+        // console.log(m);
         // areaTop[l].parentsUntil().siblings().find('.area').removeClass('ani');
      }
     }
