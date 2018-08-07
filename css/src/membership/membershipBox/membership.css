@@ -17,7 +17,7 @@
 
 /*table */
 
-table {margin: auto; width: 900px; height: 800px; text-align:center;}
+table {margin: auto; width:1000px; height: 800px; text-align:center;}
 
 thead > tr > th { height: 100px; border-bottom:1px solid #aaa;}
 tbody > tr > td{ height: 100px;}
@@ -61,3 +61,5 @@ tbody > tr > td{ height: 100px;}
 /*자녀 정보 입력시 img*/
 
 .child_img_1{background-image:url("../../../../img/membershipBox/child_img_1.png"); background-repeat:no-repeat; background-size:110%; background-position:center;}
+
+.child_img_2{background-image:url("../../../../img/membershipBox/child_img_2.png"); background-repeat: no-repeat; background-size:110%; background-position:center;}

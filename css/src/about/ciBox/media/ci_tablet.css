@@ -3,17 +3,17 @@
   #ciBox { width: 100%; height: auto; box-sizing:border-box;
    padding:1.5rem;}
   
-  #ciBox > h3 {width:80px; height: 30px; background-color:#0080e6;
+  #ciBox h3 {width:80px; height: 30px; background-color:#0080e6;
   line-height:30px; color:#fff; font-size:18px; font-weight:normal;
   text-align:center;}
 
-  .ci_img {width:440px; height: 240px; margin: auto; margin-top:2%;
+  .ci_img {width:440px; height: 240px; margin: auto; margin-top:5%;
   background-size:100%;}
 
-  #ciBox > dl {width: 90%; height: auto; background-color:#fff;
+  .ci_content {width: 90%; height: auto; background-color:#fff;
     margin-top: 10%; margin-left: 5%;}
 
-  #ciBox > dl > dt {width: 100%; height:auto; font-size:18px;}
-  #ciBox > dl > dd {width: 100%; height:auto; margin-top: 30px;
+  .ci_content > dt {width: 100%; height:auto; font-size:18px;}
+  .ci_content > dd {width: 100%; height:auto; margin-top: 30px;
     color:#666;}
 }

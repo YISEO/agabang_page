@@ -1,15 +1,15 @@
 @media screen and (min-width:769px) and (max-width:1366px){
 
-  #headBox {padding-top:30px; width: 100%; height:auto;}
+  #headBox {padding-top:10px; width: 100%; height:auto; position:relative;}
   
-  #headBox > h1 {margin: auto; width: 300px; height:80px;}
+  #headBox > h1 {margin: auto; margin-bottom:10px; width: 300px; height:80px;}
   #headBox > h1 > a {display: block; width: 100%; height: 100%;}
 
-  .gnb_wrap {width:100%; height:60px; margin-top:10px; border-top:1px solid #ddd; border-bottom:1px solid #0080e6;}
+  .gnb_wrap {width:100%; height:60px; border-top:1px solid #ddd; border-bottom:1px solid #0080e6; top:0; left:0; background-color:#fff;}
   .gnb_btn {display: none;}
 
   .gnb {width:70%; height:auto; position:relative; margin: auto;}
-  .gnb_a {display: none; width: 110%; margin-left: -5%; height:160px; background-color:rgba(255,255,255,0.6); position: absolute; top: 60px; left: 0; z-index: -100;}
+  .gnb_a {display: none; width: 110%; margin-left: -5%; height:160px; background-color:rgba(255,255,255,0.8); position: absolute; top: 60px; left: 0; z-index: -100;}
 
 
   .gnb > ul {width:100%; height:auto;}
@@ -34,7 +34,7 @@
   
   /*unb*/
 
-  .unb{width:auto; height:30px; position:absolute; bottom:8%; right:10px;}
+  .unb{width:auto; height:30px; position:absolute; bottom:16px; right:10px;}
 
   .language {float:left; width:30px; height:100%; margin-right:20px;}
   .join_us {float:left; width:30px; height:100%; margin-right:20px;}
@@ -47,7 +47,7 @@
 @media screen and (min-width:769px) and (max-width:990px){
   .gnb > ul > li > a {font-size:14px;}
 
-  .unb {bottom:6%;}
+  .unb {bottom:14px;}
 
   .language{width:22px; height: 22px; margin-right:10px;}
   .join_us{width:22px; height: 22px; margin-right:10px;}

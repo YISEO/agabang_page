@@ -2,7 +2,7 @@
   
   /*headBox-------------------------------------------*/
 
-  #headBox {padding:10px; height:70px; position:fixed;}
+  #headBox {position:fixed; padding:10px; height:70px; position:fixed;}
   #headBox > h1 {margin: auto;}
   
   /*-----------------------gnb-------------------------------*/

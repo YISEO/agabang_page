@@ -3,12 +3,12 @@
 
   #mapBox {width: 100%; height:670px; box-sizing:border-box; padding:1.5rem; 
     padding-top: 100px;}
-  #mapBox > h3 {width:110px; height: 30px;margin-bottom: 30px; 
+  #mapBox h3 {width:110px; height: 30px;margin-bottom: 30px; 
   line-height:30px; font-size:18px; background-color:#0080e6; 
   color:#fff; font-weight:normal; text-align:center;}
 
 
-  .map_img {width:90%; height: 300px; background-image:url("../../../../../img/aboutBox/map.png"); background-position:center; background-size:contain; margin: auto; margin-bottom:50px;}
+  .map_img {width:90%; height: 300px; background-image:url("../../../../../img/aboutBox/map.png"); background-position:center; background-size:contain; margin: auto; margin-top: 8%; margin-bottom:50px;}
 
 
   #mapBox > address {width:100%; height: auto; font-style:normal; margin: auto; display: block;}

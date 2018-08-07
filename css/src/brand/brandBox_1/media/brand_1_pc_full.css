@@ -2,11 +2,13 @@
 
     /*공통*/
 
-  #brand_wrap {position:relative; padding-top:250px;}
+  #brand_wrap {position:relative;}
   
-  #brandBox_1 {width:1100px; height: auto; margin: auto; box-sizing:border-box; padding-top: 2rem; overflow:hidden;}
+  .b_tab_text {width: 1100px; height: auto; margin: auto;}
+  #brandBox_1 {width:100%; height: auto; box-sizing:border-box; padding-top: 2rem; overflow:hidden;}
 
-  .brand_tab {width:60%; height:40px; border-bottom:1px solid #0080e6; margin: auto;}
+  .brand_tab {width:60%; height:40px; border-bottom:1px solid #0080e6; margin: auto;
+    margin-top: 6%;}
   .brand_tab > li {float:left; width:200px; height:40px; text-align:center; line-height:40px; margin-right: 3%;}
   .brand_tab > li:first-child {margin-left:5%; width: 230px;}
   

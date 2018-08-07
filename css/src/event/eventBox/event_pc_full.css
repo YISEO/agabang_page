@@ -1,8 +1,7 @@
 @media screen and (min-width:1367px) {
 
-	#event_wrap {padding-top: 300px;}
 
-	.event_tab {width:1200px; height:40px; border-bottom:1px solid #0080e6; margin: auto;}
+	.event_tab {width:1200px; height:40px; border-bottom:1px solid #0080e6; margin: auto; margin-top:5%;}
 	.event_tab > li {float:left; width:170px; height:40px; text-align:center; line-height:40px; margin-right: 5%; font-size:18px;}
 	.event_tab > li:first-child {margin-left: 5%;}
 	.event_tab > li > a {color:#666;}

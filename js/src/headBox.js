@@ -44,6 +44,21 @@ gnbLi.on('click', function(e){
 
 } else if (winW > 768){
 
+var gnbWrap = $('.gnb_wrap');
+var gnbWrapTop = gnbWrap.offset().top;
+
+$(window).on('scroll',function(){
+
+  var wScroll = $(window).scrollTop()
+    
+      if( wScroll > gnbWrapTop ){
+    gnbWrap.css('position','fixed');
+      }else{
+    gnbWrap.removeAttr('style');
+      }
+
+});
+
   var firstA = gnbLi.eq(0).attr('href');
   gnbLi.on('click', function(e){
   e.preventDefault();
@@ -64,14 +79,14 @@ gnbLi.on('click', function(e){
  
 });
 
+
+};
+
 $(window).on('resize',function(e){
   var nowW = $(window).outerWidth();
   if (winW !== nowW){
     location.reload();
   };
 });
-
-};
-
 
 })(jQuery);

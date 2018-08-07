@@ -19,7 +19,8 @@
 	.brand_img_1 > li {width:12.5%; height:100%; float:left;}
 
 
-	.brand_area_1 {width:800%; height:auto;}
+	.brand_area_1 {width:800%; height:auto; overflow: hidden;}
+
 
 	.brand_1 {width:12.5%; height:auto; float:left; margin-top: 20px;}
 	.brand_1 > dt {width: 100%; margin-top: 20px; font-size: 20px;}

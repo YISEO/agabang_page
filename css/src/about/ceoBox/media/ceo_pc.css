@@ -1,10 +1,10 @@
 /*ceo_pc.css*/
 @media screen and (min-width:769px) and (max-width:1366px){ 
 
-#ceoBox {height:auto; padding-top:320px;}
+#ceoBox {width: 100%; height:auto; padding-top:220px;}
 
 
-.about_li_wrap {width: 100%; height: 60px; background-color:#fff; position:fixed; top:160px; left: 0; padding:50px 0;}
+.about_li_wrap {width: 100%; height: 60px; background-color:#fff; position:absolute; top:160px; left: 0; padding:70px 0;}
 .about_li {width:68.814056vw; /*940/1366*100*/ min-width:750px; 
   height: 52px; margin: auto;}
 
@@ -29,7 +29,7 @@
 .ceo_text > dd {width: 100%; height:auto; margin-top:50px; color:#666;}
 
 /*intro_area*/
-.intro_area {width:750px; height: 1020px; margin: auto; margin-top:40px; opacity:0; transform:translate(0, 300px); transition:all 500ms linear 400ms;}
+.intro_area {width:750px; height: 1020px; margin: auto; margin-top:100px; opacity:0; transform:translate(0, 300px); transition:all 500ms linear 400ms;}
 .intro_area > h3{width: 320px; height: 60px; font-size:22px; text-align:center; line-height:60px; margin: auto; margin-bottom: 20px;}
 .intro_area.ani {opacity:1; transform:translate(0);}
 
@@ -61,7 +61,7 @@ background-size:150%}
 
 .intro_li_2 > dl {width:33.333333%; height: 50%; border:1px solid #000;
 box-sizing:border-box; float: left;}
-.intro_li_2 > dl > dt {width: 100%; height:auto; text-align:center; color:#ff9000; margin-top:10%; font-size:20px; }
+.intro_li_2 > dl > dt {width: 100%; height:auto; text-align:center; color:#ff6000; margin-top:10%; font-size:20px; }
 .intro_li_2 > dl > dd {width:100%; height: 65%; margin: auto; box-sizing:border-box; padding:1rem; color:#444;}
 
 }

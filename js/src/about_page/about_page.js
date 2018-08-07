@@ -16,7 +16,27 @@
      aboutTop[i]  = $(samplpDiv).offset().top-100;
   }
 
-  // console.log( aboutTop);
+// -------------------------------------------
+
+// 스크롤시 about_wrap position : fixed로
+
+var aboutWrap = $('.about_li_wrap');
+var aboutWrapTop = aboutWrap.offset().top;
+console.log(aboutWrapTop)
+
+$(window).on('scroll', function(){
+
+  var winScroll = $(window).scrollTop();
+  console.log(winScroll);
+  
+  if( winScroll > aboutWrapTop ){
+    var aboutt = aboutWrap.offset().top;
+    aboutWrap.css({position:'fixed', top:30});
+  }else{
+    aboutWrap.removeAttr('style');
+  }
+
+});
 
 // -------------------------------------------
 
@@ -82,24 +102,6 @@
 
 
 /*
-  var ceoBoxOffset = $('#ceoBox').offset().top;
-  var ceoArea = $('.ceo_area');
-  var introArea = $('.intro_area');
-  var nowTop = $(window).scrollTop();
-
-  // console.log(ceoBoxOffset);
- var OffsetView = function(){
-  if( nowTop >= ceoBoxOffset ){
-      ceoArea.addClass('ani');
-      introArea.addClass('ani');
-    }else{
-      ceoArea.removeClass('ani');
-      introArea.removeClass('ani');
-    };
-
-
-
-   };
 
   // console.log(aboutLi.length);
 

@@ -2,7 +2,7 @@
 
 
 
-#membership_wrap {box-sizing:border-box; padding: 2rem; padding-top: 180px; width:100%; height: auto; margin: auto;}
+#membership_wrap {box-sizing:border-box; width:100%; height: auto; margin: auto;}
 
   .membership_tab {width:70%; height:40px; border-bottom:1px solid #0080e6; margin: auto; margin-top:7%;}
   .membership_tab > li {float:left; width:170px; height:40px; text-align:center; line-height:40px; margin-right: 4%;}
@@ -15,7 +15,7 @@
   .membership_tab > li.select > a {color:#fff;}
 
 
-  .m_tab_text {width:1200px; height:auto; background-color:#fff;
+  .m_tab_text {width:70%; height:auto; background-color:#fff;
     box-sizing:border-box; padding:1rem; margin: auto; 
     margin-top:3%;}
 
