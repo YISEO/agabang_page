@@ -7,7 +7,6 @@
   var aboutList     = aboutLi.children('a');
 
   var aboutLILen    = aboutList.length;
-  // var aboutLILen = aboutList.attr('href');
   var aboutTop      = [];
   var i             = 0;
 
@@ -22,12 +21,12 @@
 
 var aboutWrap = $('.about_li_wrap');
 var aboutWrapTop = aboutWrap.offset().top;
-console.log(aboutWrapTop)
+// console.log(aboutWrapTop)
 
 $(window).on('scroll', function(){
 
   var winScroll = $(window).scrollTop();
-  console.log(winScroll);
+  // console.log(winScroll);
   
   if( winScroll > aboutWrapTop ){
     var aboutt = aboutWrap.offset().top;
@@ -90,8 +89,7 @@ $(window).on('scroll', function(){
      (l >= areaLeng) ? m = areaLeng : m= l;
     if(nowTop >= areaTop[l]-900){
        area.eq(m).addClass('ani');
-        // console.log(m);
-        // areaTop[l].parentsUntil().siblings().find('.area').removeClass('ani');
+
      }
     }
 

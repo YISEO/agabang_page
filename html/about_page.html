@@ -274,7 +274,7 @@
       </div>
 
       <address class="area">
-      <div class="map_img"></div>
+      <div class="map_img" id="map"></div>
         <dl class="c_address">
           <dt>아가방앤컴퍼니 본사</dt>
           <dd>주소 : 서울특별시 강남구 테헤란로 207</dd>
@@ -289,9 +289,37 @@
   </div>
 
   <!-- javascript -->
+
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
   <script src="../js/src/load.js"></script>
   <script src="../js/src/about_page/about_page.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpP9gfrUi7ev0B5tMf9uYg9F6-6zJ2g-A&callback=initMap"async defer></script>
+
+  <script>
+
+    function initMap() {
+        var myLatLng = {lat:37.501717, lng:127.038795}; //위도, 경도
+        var select   = document.getElementById('map');
+
+        var map = new google.maps.Map(select, {
+          center: myLatLng,
+          zoom:17,
+          // mapTypeId:google.maps.MapTypeId.SATELLITE
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: '아가방앤컴퍼니',
+          animation:google.maps.Animation.BOUNCE
+         });
+      }
+
+      // initMap();
+  </script>
 </body>
+
+</html>
 

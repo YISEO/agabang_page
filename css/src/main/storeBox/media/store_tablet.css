@@ -2,7 +2,16 @@
 
   #storeBox {padding-top:30px; height: 408px;}
   #storeBox > form {display: none;}
-  #storeBox > h2 > span {overflow: hidden; width: 0; height: 0; display: block;}
+  #storeBox > p {position:absolute; top:8rem; left:10%; width: 250px; height: auto; font-size: 18px; line-height:30px;}
 
-  #storeBox {background-image:url("../../../../../img/storeBox/store_mob_bg.jpg"); background-repeat: no-repeat; background-size:contain;}
+  .store_li {position:absolute; bottom:4rem; left:10%; width: 260px; height: 30px;}
+  .store_li > li {float: left; margin-right: 20px;width: 120px; height: 100%; text-align:center; line-height:30px;}
+
+  .store_li > li:first-child {background-color:#444;}
+  .store_li > li:first-child > a {color:#fff;}
+
+  .store_li > li:last-child {margin-right: 0; box-sizing:border-box; border:1px solid #000;}
+  
+  .store_li > li > a {display: block; width: 100%; height: 100%;}
+
 }

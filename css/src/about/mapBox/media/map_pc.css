@@ -5,12 +5,13 @@
   #mapBox {height:auto; box-sizing:border-box; padding:2rem 1rem; padding-top:290px;}
   #mapBox > h3 {width:180px; height: 24px; margin: auto; margin-bottom: 30px; text-align:center; line-height:24px; font-size:20px;}
 
+  #mapBox > address {width:650px; height: auto; font-style:normal; margin: auto;}
+  #mapBox > address:after{content:" "; display: block; position:absolute; z-index: -1; top:2rem; left:2rem; width: 650px; height: 475px; border:2px solid #0080e6;}
 
-  .map_img {width:725px; height: 475px; margin: auto; margin-bottom:50px; background-size:100%;}
+  .map_img {width:650px; height: 475px; margin: auto; margin-bottom:50px; background-size:100%;}
 
-  #mapBox > address {width: 710px; height: auto; font-style:normal; margin: auto;}
 
-  .c_address {width: 100%; height:70px;}
+  .c_address {width: 100%; height:70px; margin-top: 100px;}
   .c_address > dt {width: 250px; height:20px;margin-bottom: 20px; font-size: 18px;}
 
   .c_address > dd {width:auto; height:20px; font-size:14px; float: left;

@@ -14,7 +14,7 @@
 
 	#present_event{width:1080px; height: auto; margin: auto;
 		box-sizing:border-box; padding:2rem;}
-	.main_event_img {width: 100%; height:540px; margin-top:10%;}
+	.main_event_img {width: 100%; height:500px; margin-top:10%;}
 
 	/*.our_brand {width: 92px; height:20px; margin-top:40px; margin-bottom: 40px;}*/
 	.our_brand {display: none;}

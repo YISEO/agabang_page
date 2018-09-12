@@ -78,9 +78,9 @@ $(window).on('scroll',function(){
    };
  
 });
-
-
 };
+
+
 
 $(window).on('resize',function(e){
   var nowW = $(window).outerWidth();

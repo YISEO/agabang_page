@@ -1,9 +1,6 @@
 /*storeBox.css*/
 
-#storeBox {position:relative; box-sizing:border-box; width: 100%; 
-background-image:url("../../../../img/storeBox/store_back_img.png");
-background-repeat:no-repeat; background-size:auto 100%; 
-background-position:center;}
+#storeBox {position:relative; box-sizing:border-box; width: 100%; background-image:url("../../../../img/storeBox/store_back_img.png");background-repeat:no-repeat; background-size:auto 100%; background-position:center; word-break:keep-all;}
 
 
 .store_field {position: relative; width:100%;}

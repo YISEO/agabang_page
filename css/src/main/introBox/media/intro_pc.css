@@ -20,9 +20,12 @@
     font-size:2rem; color:#fff; font-family: Flaticon;}
 
 
-  .indicator {width:auto; height: 22px; bottom:1.5rem;
+  .indicator {width:60px; height: 22px; bottom:1.5rem;
     margin-left:-30px;}
-  .indicator > li {width: 22px; height: 100%;}
+  .indicator > li {width: 22px; height: 100%; margin-right: 16px;}
+  .indicator > li:last-child {margin-right: 0;}
 
+  .indicator > li > a {display: block; width: 100%; height: 100%;}
+  .indicator > li.active > a {color:#000;}
 
 }

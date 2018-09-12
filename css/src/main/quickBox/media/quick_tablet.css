@@ -1,16 +1,16 @@
 @media screen and (min-width:481px) and (max-width:768px) {
 
-  #quickBox {padding-top:55px; height:auto; background-color:#fff;}
-  #quickBox > h2 {width: 250px; height: 60px;}
+  #quickBox {padding-top:3.4375rem; height:auto; background-color:#fff;}
+  #quickBox > h2 {width: 15.625rem; height: 3.75rem;}
 
-  .quick_content{width:89.84375vw; /*690/768*100*/ height:1500px; }
+  .quick_content{width:89.84375vw; /*690/768*100*/ height:93.75rem; }
 
-  .quick {width:42.96875vw; /*330/768*100*/ height:auto; float:left; margin-top: 30px;}
-  .quick_img {width: 100%; height: 380px; background-color:#fff;  box-sizing:border-box; border:1px solid #aaa;}
+  .quick {width:42.96875vw; /*330/768*100*/ height:auto; float:left; margin-top: 1.875rem;}
+  .quick_img {width: 100%; height: 23.75rem; background-color:#fff;  box-sizing:border-box; border:0.0625rem solid #aaa;}
   .quick dl {box-sizing: border-box; padding-top:1rem; 
     width: 100%; height:auto;}
-  .quick dl > dt {font-size:18px; font-weight: bold; color:#0080e6; font-size:22px;}
-  .quick dl > dd {margin-top: 20px; font-size:22px;}
+  .quick dl > dt {font-size:1.125rem; font-weight: bold; color:#0080e6; font-size:1.375rem;}
+  .quick dl > dd {margin-top: 1.25rem; font-size:1.375rem;}
 
 
 .quick_1, .quick_4 {float: left;}
@@ -20,13 +20,13 @@
 
 
 
-.quick_img_2, .quick_img_5  {height: 370px; margin-top: 10px;}
+.quick_img_2, .quick_img_5  {height: 23.125rem; margin-top: 0.625rem;}
 
 
 /*quick_img*/
 .quick_img_1{background-image:url("../../../../../img/quickBox/quick_img_1.jpg");background-size:auto 70%; background-position:bottom; background-color:#f6fbff;}
 .quick_img_2{background-image:url("../../../../../img/quickBox/quick_img_2.png");background-size:contain; background-position:center;}
-.quick_img_3{height: 280px; background-image:url("../../../../../img/quickBox/quick_img_3.jpg");background-size:contain; background-position:right;}
+.quick_img_3{height: 17.5rem; background-image:url("../../../../../img/quickBox/quick_img_3.jpg");background-size:contain; background-position:right;}
 .quick_img_4{background-image:url("../../../../../img/quickBox/quick_img_4.png");background-size:80%; background-position:bottom;}
 .quick_img_5{background-image:url("../../../../../img/quickBox/quick_img_5.png");background-size:80%; background-position:center;}
 

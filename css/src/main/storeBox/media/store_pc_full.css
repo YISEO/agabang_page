@@ -2,6 +2,9 @@
 
  #storeBox {padding-top: 70px; height:1030px;}
  #storeBox > h2 {font-size:2rem;}
+ #storeBox > p {overflow: hidden; width: 0; height: 0; display: block;}
+ .store_li {display: none;}
+ 
 
  #storeBox > form {position:absolute; background-color:rgba(255,
 255,255,0.7); top:50%; left:8%; margin-top:-350px; 

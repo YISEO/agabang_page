@@ -3,8 +3,11 @@
   #storeBox {padding-top:40px; height:736px;}
 
   #storeBox > form {position:absolute; background-color:rgba(255,255,255,0.7); top:50%; left:8%; margin-top:-250px; 
-    width:635px; height:540px; box-sizing:border-box; 
+    width:635px; height:540px; box-sizing:border-box;
     padding:20px;}
+
+  #storeBox > p {overflow: hidden; width: 0; height: 0; display: block;}
+  .store_li {display: none;}
 
 
 .store_field {height:100px; margin-top: 10px;}

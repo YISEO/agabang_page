@@ -2,8 +2,7 @@
 
 #mapBox {width: 100%; word-break:keep-all;}
 
-.map_img {background-image:url("../../../../img/aboutBox/map.png");
-background-repeat:no-repeat;}
+.map_img {background-image:url("../../../../img/aboutBox/map.png");background-repeat:no-repeat;}
 
 .c_address {font-style:normal;}
 

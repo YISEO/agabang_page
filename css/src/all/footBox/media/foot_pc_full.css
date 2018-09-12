@@ -16,7 +16,7 @@
 
   address {width: 618px; height: 60px; margin-top: 48px; font-style:normal;}
   address > ul {width: 100%; height: 100%;}
-  address > ul > li {float: left; /*font-size:14px;*/}
+  address > ul > li {float: left;}
 
   .s_info_1, .s_info_4 {width: 242px; height: 20px; margin-right: 38px;}
 
