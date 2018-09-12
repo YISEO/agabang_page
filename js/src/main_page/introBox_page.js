@@ -2,17 +2,15 @@
 
 (function($){
 
-var introBox = $('#introBox');
-
-var indi =introBox.children('.indicator');
-var indiLi = indi.children('li');
-var indiLiLen = indiLi.length-1;
-
-
 
 //배너 변수선언
 var introLi = $('.intro_box');
 var introUl = introLi.children('.intro_li');
+
+var indi =introLi.children('.indicator');
+var indiLi = indi.children('li');
+var indiLiLen = indiLi.length-1;
+
 
 //== 첫 배너를 마지막 위치에 복제 ==//
 var introLiClone = introLi.find('li').eq(0).clone();
@@ -47,6 +45,7 @@ indiLi.on('click',function(e){
   move(i);
 
 });
+  
 
 //=== 배너가 자동으로 움직이게 하기 ===//
 
@@ -56,11 +55,11 @@ var introBanner = function(i){
 var num = i * -100 +'%';
 
   if (i < introLiLen-1){
-    introUl.animate({marginLeft:num});
+    introUl.stop().animate({marginLeft:num});
   }else {
-    introUl.animate({marginLeft:num}, function(){
-      $(this).css({marginLeft:0});
       i = 0;
+      introUl.stop().animate({marginLeft:num}, function(){
+      $(this).css({marginLeft:0});
     });
   };
 
