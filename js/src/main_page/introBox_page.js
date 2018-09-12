@@ -102,7 +102,7 @@ var num = i * -100 +'%';
 
  
   StartSlide();
-  $(document).on({'mouseenter':StopSlide , 'mouseleave':StartSlide});
+  introLi.on({'mouseenter':StopSlide , 'mouseleave':StartSlide});
 
 
  
