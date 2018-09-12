@@ -21,9 +21,9 @@ h1 {background-image:url("../../../../img/headBox/logo.png");background-repeat:n
 .language_li {display: none;}
 
 
-  .language {float:left; background-image:url("../../../../../img/headBox/worldwide.svg");
+  .language {float:left; background-image:url("../../../../img/headBox/worldwide.svg");
     background-repeat:no-repeat; background-size:100%;}
-  .join_us {float:left; background-image:url("../../../../../img/headBox/man.svg");
+  .join_us {float:left; background-image:url("../../../../img/headBox/man.svg");
     background-repeat:no-repeat; background-size:100%;}
   .shopping_mall {float:left; background-image:url("../../../../img/headBox/shop.svg");
     background-repeat:no-repeat; background-size:100%;}
