@@ -8,8 +8,8 @@
 border-bottom:1px solid #aaa; text-align:left; line-height:200%;}
 
 
-#brand_sel, #store_sel {width: 100%; height: 100%;}
-#area_sel, #city_sel {width: 100%; height: 100%;}
+#brand_sel, #store_sel {height: 100%;}
+#area_sel, #city_sel {height: 100%;}
 
 
 .brand_sel:before {content:" "; display:inline-block; width: 40px; height: 40px; background-image:url("../../../../img/storeBox/brand.svg"); background-size:130%; background-repeat: no-repeat; background-position:bottom;}
@@ -22,8 +22,7 @@ border-bottom:1px solid #aaa; text-align:left; line-height:200%;}
 .arrow_wrap>select,
 .arrow_wrap>input{position: relative; z-index: 20; cursor:pointer; background-color:transparent; text-indent: 0.5rem;}
 
-.arrow_wrap:after {content:" "; display: inline-block; width: 34px; height: 34px; background-image:url("../../../../img/triangle.svg"); background-repeat:no-repeat; background-position:center; background-size:70%; position:absolute; z-index:10;
-  bottom: 6px; right:6px;}
+.arrow_wrap:after {content:" "; display: inline-block; width: 34px; height: 34px; background-image:url("../../../../img/triangle.svg"); background-repeat:no-repeat; background-position:center; background-size:70%; position:absolute; z-index:10; bottom: 6px; right:6px;}
 
 .search_btn {position:absolute; left:50%; background-color:#0080e6; color:#fff;}
 

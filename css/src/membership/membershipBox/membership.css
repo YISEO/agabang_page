@@ -8,8 +8,6 @@
 #membership_wrap h4, 
 #membership_wrap h5{font-weight: normal;}
 
-/*.membership_tab > li:first-child:after {display: none;}
-.membership_tab > li:after {content:" "; display: block; width: 1px; height:10px; border-right:1px solid #aaa;}*/
 
 .doodoo_img {background-image:url("../../../../img/membershipBox/doodoo.jpg"); background-repeat:no-repeat; 
   background-size:100%; background-position:center;}
@@ -47,7 +45,13 @@ tbody > tr > td{ height: 100px;}
   background-size:contain; background-position:center;}
 
 
-  .dd_img {background-size:30%;}
+  .dd_img {
+ -webkit-background-size:auto 80%;
+  -moz-background-size:auto 80%;
+  -ms-background-size:auto 80%;
+  -o-background-size:auto 80%;
+  background-size:auto 80%;
+  }
 
 
 /*회원가입 시 혜택 img*/
