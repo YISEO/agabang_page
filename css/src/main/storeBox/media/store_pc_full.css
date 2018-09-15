@@ -6,9 +6,7 @@
  .store_li {display: none;}
  
 
- #storeBox > form {position:absolute; background-color:rgba(255,
-255,255,0.7); top:50%; left:8%; margin-top:-350px; 
-width: 895px; height: 770px; box-sizing:border-box; padding:30px;}
+ #storeBox > form {position:absolute; background-color:rgba(255,255,255,0.7); top:50%; left:8%; margin-top:-350px;width: 895px; height: 770px; box-sizing:border-box; padding:30px;}
 
 
 .store_field {height:120px; margin-top: 30px;}
@@ -17,15 +15,14 @@ width: 895px; height: 770px; box-sizing:border-box; padding:30px;}
 
 .brand_box, .store_box {width:100%; height:40px; margin-top: 20px;}
 .area_box, .city_box {width:370px; height:40px; float: left; margin-top: 20px;}
+.arrow_wrap {outline:1px solid #444; overflow-x:hidden; overflow-y:normal;}
 
 .city_box {margin-left:94px;}
 
 #keyword {width:100%; height:40px; font-size:20px; border:1px solid #444;}
 .keyword_box {margin-top:20px;}
 
-.search_btn {bottom: 60px; width: 140px; height: 50px; margin-left:-70px;
-font-size: 20px;}
+.search_btn {bottom: 60px; width: 140px; height: 50px; margin-left:-70px; font-size: 20px;}
 
-.arrow_wrap {outline:1px solid #444; overflow-x:hidden; overflow-y:normal;}
 
 }

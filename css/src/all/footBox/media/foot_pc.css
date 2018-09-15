@@ -28,8 +28,12 @@
   #footBox > p {width:398px; height: 20px; background-color:#fff;
     margin-top: 20px;}
   
-  .family_site {position:absolute; right:10px; top:45px;}
-  #site{float: left; width:100px; height: 20px; text-indent:0.5rem;}
+  .family_site {position:absolute; right:10px; top:45px; width:140px; height:20px;}
+
+  .site_wrap {float: left; width:90px; height:100%; overflow-x:hidden; overflow-y:normal; border:1px solid #444;}
+  .site_wrap > select {width:108px; height:100%; border:0; text-indent:0.3rem;}
+
+  
   .move {float: right; display: block; width: 30px; height:20px; background-color:#0080e6; color:#fff; text-align:center; line-height:20px; margin-left:5px;}
 
 }

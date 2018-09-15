@@ -13,7 +13,7 @@
 .store_field {height:100px; margin-top: 10px;}
 
 
-.store_field select {font-size:1rem;}
+.store_field select {width:105%; font-size:1rem; border:0;}
 
 
 .brand_box, .store_box {width:100%; height:30px; font-size:1rem;  margin-top: 20px;}
@@ -21,11 +21,12 @@
 
 .city_box {margin-left:34px;}
 
-#keyword {width:100%; height:30px;}
+#keyword {width:100%; height:30px; border:1px solid #444;}
 .keyword_box {margin-top: 20px;}
 .arrow_wrap:after {bottom: 0; right: 0;}
 
 .search_btn {bottom:20px; margin-left:-50px; width:100px; height:30px;}
 
+.arrow_wrap {outline:1px solid #444; overflow-x:hidden; overflow-y:normal;}
  
 }
